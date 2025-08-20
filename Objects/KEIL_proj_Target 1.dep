@@ -1,0 +1,671 @@
+Dependencies for Project 'KEIL_proj', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\Source\Core\Device\ABOV\A31G21x\Source\system_A31G21x.c)(0x68A3E5DD)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\system_a31g21x.o --omf_browse .\objects\system_a31g21x.crf --depend .\objects\system_a31g21x.d)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+F (.\Source\Main\Init.c)(0x68A4014C)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\init.o --omf_browse .\objects\init.crf --depend .\objects\init.d)
+I (Source\Main\Init.h)(0x6889B323)
+I (Source\Main\main_conf.h)(0x6889B323)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_debug_frmwrk.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_uartn.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_usart1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_libcfg.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_adc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_crc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_i2c.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pcu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pwr.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer2n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer30.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wdt.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wt.h)(0x6889B323)
+F (.\Source\Main\main.c)(0x68A412D7)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (Source\Main\main_conf.h)(0x6889B323)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_debug_frmwrk.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_uartn.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_usart1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_libcfg.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_adc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_crc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_i2c.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pcu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pwr.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer2n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer30.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wdt.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wt.h)(0x6889B323)
+I (Source\Main\Init.h)(0x6889B323)
+I (Source\Main\xprintf.h)(0x68A33D4D)
+I (Source\Main\hal.h)(0x68A3FC7B)
+I (Source\Main\fnd.h)(0x6889B323)
+I (Source\Main\key.h)(0x6889B323)
+I (Source\Main\sound.h)(0x6889B323)
+I (Source\Main\app_ctl.h)(0x6889B323)
+I (Source\Main\app_data.h)(0x6889B323)
+I (Source\Main\sensor.h)(0x68A42F6D)
+I (Source\Main\model.h)(0x6889B323)
+F (.\Source\Main\Irq.c)(0x68A5207A)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\irq.o --omf_browse .\objects\irq.crf --depend .\objects\irq.d)
+I (Source\Main\main_conf.h)(0x6889B323)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_debug_frmwrk.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_uartn.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_usart1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_libcfg.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_adc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_crc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_i2c.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pcu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pwr.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer2n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer30.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wdt.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wt.h)(0x6889B323)
+I (Source\Main\hal.h)(0x68A3FC7B)
+F (.\Source\Main\SystemClock.c)(0x6889B323)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\systemclock.o --omf_browse .\objects\systemclock.crf --depend .\objects\systemclock.d)
+I (Source\Main\main_conf.h)(0x6889B323)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_debug_frmwrk.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_uartn.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_usart1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_libcfg.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_adc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_crc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_i2c.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pcu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pwr.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer2n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer30.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wdt.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wt.h)(0x6889B323)
+F (.\Source\Main\xprintf.c)(0x68A33D4D)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\xprintf.o --omf_browse .\objects\xprintf.crf --depend .\objects\xprintf.d)
+I (Source\Main\xprintf.h)(0x68A33D4D)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60251566)
+F (.\Source\Main\hal.c)(0x68A3FC7B)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\hal.o --omf_browse .\objects\hal.crf --depend .\objects\hal.d)
+I (Source\Main\hal.h)(0x68A3FC7B)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_debug_frmwrk.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_uartn.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_usart1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_libcfg.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_adc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_crc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_i2c.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pcu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pwr.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer2n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer30.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wdt.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wt.h)(0x6889B323)
+I (Source\Main\xprintf.h)(0x68A33D4D)
+I (Source\Main\sound.h)(0x6889B323)
+I (Source\Main\key.h)(0x6889B323)
+I (Source\Main\app_data.h)(0x6889B323)
+I (Source\Main\sensor.h)(0x68A42F6D)
+I (Source\Main\model.h)(0x6889B323)
+I (Source\Main\app_ctl.h)(0x6889B323)
+I (Source\Main\fnd.h)(0x6889B323)
+I (Source\Main\queue.h)(0x6889B323)
+I (Source\Main\flash.h)(0x6889B323)
+F (.\Source\Main\key.c)(0x68A33D4D)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (Source\Main\hal.h)(0x68A3FC7B)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_debug_frmwrk.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_uartn.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_usart1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_libcfg.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_adc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_crc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_i2c.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pcu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pwr.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer2n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer30.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wdt.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wt.h)(0x6889B323)
+I (Source\Main\key.h)(0x6889B323)
+F (.\Source\Main\sound.c)(0x6889B323)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\sound.o --omf_browse .\objects\sound.crf --depend .\objects\sound.d)
+I (Source\Main\hal.h)(0x68A3FC7B)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_debug_frmwrk.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_uartn.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_usart1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_libcfg.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_adc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_crc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_i2c.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pcu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pwr.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer2n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer30.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wdt.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wt.h)(0x6889B323)
+I (Source\Main\sound.h)(0x6889B323)
+I (Source\Main\led.h)(0x6889B323)
+F (.\Source\Main\app_sensing.c)(0x68A5207A)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\app_sensing.o --omf_browse .\objects\app_sensing.crf --depend .\objects\app_sensing.d)
+I (Source\Main\app_sensing.h)(0x6889B323)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (Source\Main\app_data.h)(0x6889B323)
+I (Source\Main\hal.h)(0x68A3FC7B)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_debug_frmwrk.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_uartn.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_usart1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_libcfg.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_adc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_crc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_i2c.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pcu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pwr.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer2n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer30.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wdt.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wt.h)(0x6889B323)
+I (Source\Main\sensor.h)(0x68A42F6D)
+I (Source\Main\model.h)(0x6889B323)
+I (Source\Main\xprintf.h)(0x68A33D4D)
+I (Source\Main\app_normal.h)(0x6889B323)
+F (.\Source\Main\app_ctl.c)(0x68A33D4D)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\app_ctl.o --omf_browse .\objects\app_ctl.crf --depend .\objects\app_ctl.d)
+I (Source\Main\hal.h)(0x68A3FC7B)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_debug_frmwrk.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_uartn.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_usart1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_libcfg.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_adc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_crc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_i2c.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pcu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pwr.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer2n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer30.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wdt.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wt.h)(0x6889B323)
+I (Source\Main\app_ctl.h)(0x6889B323)
+I (Source\Main\xprintf.h)(0x68A33D4D)
+I (Source\Main\fnd.h)(0x6889B323)
+I (Source\Main\key.h)(0x6889B323)
+I (Source\Main\led.h)(0x6889B323)
+I (Source\Main\sound.h)(0x6889B323)
+I (Source\Main\app_setting.h)(0x6889B323)
+I (Source\Main\app_normal.h)(0x6889B323)
+I (Source\Main\app_data.h)(0x6889B323)
+I (Source\Main\sensor.h)(0x68A42F6D)
+I (Source\Main\model.h)(0x6889B323)
+I (Source\Main\modbus.h)(0x6889B323)
+F (.\Source\Main\app_normal.c)(0x68A33D4D)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\app_normal.o --omf_browse .\objects\app_normal.crf --depend .\objects\app_normal.d)
+I (Source\Main\hal.h)(0x68A3FC7B)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_debug_frmwrk.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_uartn.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_usart1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_libcfg.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_adc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_crc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_i2c.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pcu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pwr.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer2n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer30.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wdt.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wt.h)(0x6889B323)
+I (Source\Main\app_ctl.h)(0x6889B323)
+I (Source\Main\app_sensing.h)(0x6889B323)
+I (Source\Main\xprintf.h)(0x68A33D4D)
+I (Source\Main\fnd.h)(0x6889B323)
+I (Source\Main\key.h)(0x6889B323)
+I (Source\Main\sound.h)(0x6889B323)
+I (Source\Main\app_normal.h)(0x6889B323)
+I (Source\Main\app_data.h)(0x6889B323)
+I (Source\Main\sensor.h)(0x68A42F6D)
+I (Source\Main\model.h)(0x6889B323)
+I (Source\Main\led.h)(0x6889B323)
+I (Source\Main\io.h)(0x6889B323)
+F (.\Source\Main\app_setting.c)(0x68A49276)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\app_setting.o --omf_browse .\objects\app_setting.crf --depend .\objects\app_setting.d)
+I (Source\Main\hal.h)(0x68A3FC7B)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_debug_frmwrk.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_uartn.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_usart1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_libcfg.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_adc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_crc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_i2c.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pcu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pwr.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer2n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer30.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wdt.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wt.h)(0x6889B323)
+I (Source\Main\app_ctl.h)(0x6889B323)
+I (Source\Main\xprintf.h)(0x68A33D4D)
+I (Source\Main\fnd.h)(0x6889B323)
+I (Source\Main\key.h)(0x6889B323)
+I (Source\Main\sound.h)(0x6889B323)
+I (Source\Main\app_setting.h)(0x6889B323)
+I (Source\Main\app_data.h)(0x6889B323)
+I (Source\Main\sensor.h)(0x68A42F6D)
+I (Source\Main\model.h)(0x6889B323)
+F (.\Source\Main\app_data.c)(0x68A48A49)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\app_data.o --omf_browse .\objects\app_data.crf --depend .\objects\app_data.d)
+I (Source\Main\hal.h)(0x68A3FC7B)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_debug_frmwrk.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_uartn.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_usart1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_libcfg.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_adc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_crc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_i2c.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pcu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pwr.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer2n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer30.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wdt.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wt.h)(0x6889B323)
+I (Source\Main\app_ctl.h)(0x6889B323)
+I (Source\Main\xprintf.h)(0x68A33D4D)
+I (Source\Main\fnd.h)(0x6889B323)
+I (Source\Main\key.h)(0x6889B323)
+I (Source\Main\sound.h)(0x6889B323)
+I (Source\Main\app_normal.h)(0x6889B323)
+I (Source\Main\app_data.h)(0x6889B323)
+I (Source\Main\sensor.h)(0x68A42F6D)
+I (Source\Main\model.h)(0x6889B323)
+F (.\Source\Main\queue.c)(0x6889B323)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (Source\Main\queue.h)(0x6889B323)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+F (.\Source\Main\sensor.c)(0x68A49362)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\sensor.o --omf_browse .\objects\sensor.crf --depend .\objects\sensor.d)
+I (Source\Main\sensor.h)(0x68A42F6D)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (Source\Main\model.h)(0x6889B323)
+I (Source\Main\hal.h)(0x68A3FC7B)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_debug_frmwrk.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_uartn.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_usart1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_libcfg.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_adc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_crc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_i2c.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pcu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pwr.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer2n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer30.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wdt.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wt.h)(0x6889B323)
+I (Source\Main\app_data.h)(0x6889B323)
+F (.\Source\Main\io.c)(0x68A412C6)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\io.o --omf_browse .\objects\io.crf --depend .\objects\io.d)
+I (Source\Main\io.h)(0x6889B323)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (Source\Main\hal.h)(0x68A3FC7B)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_debug_frmwrk.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_uartn.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_usart1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_libcfg.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_adc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_crc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_i2c.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pcu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pwr.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer2n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer30.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wdt.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wt.h)(0x6889B323)
+I (Source\Main\sensor.h)(0x68A42F6D)
+I (Source\Main\model.h)(0x6889B323)
+I (Source\Main\app_data.h)(0x6889B323)
+F (.\Source\Main\modbus.c)(0x68A5207A)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\modbus.o --omf_browse .\objects\modbus.crf --depend .\objects\modbus.d)
+I (Source\Main\modbus.h)(0x6889B323)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (Source\Main\hal.h)(0x68A3FC7B)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_debug_frmwrk.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_uartn.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_usart1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_libcfg.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_adc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_crc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_i2c.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pcu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pwr.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer2n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer30.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wdt.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wt.h)(0x6889B323)
+I (Source\Main\queue.h)(0x6889B323)
+I (Source\Main\app_data.h)(0x6889B323)
+I (Source\Main\sensor.h)(0x68A42F6D)
+I (Source\Main\model.h)(0x6889B323)
+I (Source\Main\app_sensing.h)(0x6889B323)
+I (Source\Main\app_normal.h)(0x6889B323)
+F (.\Source\Main\flash.c)(0x68A33776)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\flash.o --omf_browse .\objects\flash.crf --depend .\objects\flash.d)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (Source\Main\flash.h)(0x6889B323)
+F (.\Source\Main\fnd.c)(0x68A412C6)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\fnd.o --omf_browse .\objects\fnd.crf --depend .\objects\fnd.d)
+I (Source\Main\hal.h)(0x68A3FC7B)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_debug_frmwrk.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_uartn.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_usart1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_libcfg.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_adc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_crc.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_i2c.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pcu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pwr.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer2n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_timer30.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wdt.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_wt.h)(0x6889B323)
+I (Source\Main\fnd.h)(0x6889B323)
+I (Source\Main\xprintf.h)(0x68A33D4D)
+F (.\Source\Core\Device\ABOV\A31G21x\Source\ARM\startup_A31G21x.s)(0x6889B322)(--cpu Cortex-M0+ -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include--pd "__UVISION_VERSION SETA 542" --pd "ARMCM0P SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_a31g21x.lst --xref -o .\objects\startup_a31g21x.o --depend .\objects\startup_a31g21x.d)
+F (.\Source\Drivers\Source\A31G21x_hal_adc.c)(0x68A46FC0)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\a31g21x_hal_adc.o --omf_browse .\objects\a31g21x_hal_adc.crf --depend .\objects\a31g21x_hal_adc.d)
+I (.\Source\Drivers\Include\A31G21x_hal_adc.h)(0x6889B323)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+F (.\Source\Drivers\Source\A31G21x_hal_crc.c)(0x68A5207A)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\a31g21x_hal_crc.o --omf_browse .\objects\a31g21x_hal_crc.crf --depend .\objects\a31g21x_hal_crc.d)
+I (.\Source\Drivers\Include\A31G21x_hal_crc.h)(0x6889B323)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+F (.\Source\Drivers\Source\A31G21x_hal_debug_frmwrk.c)(0x68A5207A)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\a31g21x_hal_debug_frmwrk.o --omf_browse .\objects\a31g21x_hal_debug_frmwrk.crf --depend .\objects\a31g21x_hal_debug_frmwrk.d)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60251566)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60251564)
+I (.\Source\Drivers\Include\A31G21x_hal_debug_frmwrk.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_uartn.h)(0x6889B323)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_usart1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_libcfg.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pcu.h)(0x6889B323)
+F (.\Source\Drivers\Source\A31G21x_hal_i2c.c)(0x68A5207A)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\a31g21x_hal_i2c.o --omf_browse .\objects\a31g21x_hal_i2c.crf --depend .\objects\a31g21x_hal_i2c.d)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_i2c.h)(0x6889B323)
+F (.\Source\Drivers\Source\A31G21x_hal_pcu.c)(0x68A5207A)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\a31g21x_hal_pcu.o --omf_browse .\objects\a31g21x_hal_pcu.crf --depend .\objects\a31g21x_hal_pcu.d)
+I (.\Source\Drivers\Include\A31G21x_hal_pcu.h)(0x6889B323)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_libcfg.h)(0x6889B323)
+F (.\Source\Drivers\Source\A31G21x_hal_pwr.c)(0x68A5207A)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\a31g21x_hal_pwr.o --omf_browse .\objects\a31g21x_hal_pwr.crf --depend .\objects\a31g21x_hal_pwr.d)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_pwr.h)(0x6889B323)
+F (.\Source\Drivers\Source\A31G21x_hal_scu.c)(0x68A5207A)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\a31g21x_hal_scu.o --omf_browse .\objects\a31g21x_hal_scu.crf --depend .\objects\a31g21x_hal_scu.d)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+F (.\Source\Drivers\Source\A31G21x_hal_timer1n.c)(0x68A412C6)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\a31g21x_hal_timer1n.o --omf_browse .\objects\a31g21x_hal_timer1n.crf --depend .\objects\a31g21x_hal_timer1n.d)
+I (.\Source\Drivers\Include\A31G21x_hal_timer1n.h)(0x6889B323)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+F (.\Source\Drivers\Source\A31G21x_hal_timer2n.c)(0x68A5207A)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\a31g21x_hal_timer2n.o --omf_browse .\objects\a31g21x_hal_timer2n.crf --depend .\objects\a31g21x_hal_timer2n.d)
+I (.\Source\Drivers\Include\A31G21x_hal_timer2n.h)(0x6889B323)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+F (.\Source\Drivers\Source\A31G21x_hal_timer30.c)(0x68A5207A)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\a31g21x_hal_timer30.o --omf_browse .\objects\a31g21x_hal_timer30.crf --depend .\objects\a31g21x_hal_timer30.d)
+I (.\Source\Drivers\Include\A31G21x_hal_timer30.h)(0x6889B323)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+F (.\Source\Drivers\Source\A31G21x_hal_uartn.c)(0x68A5207A)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\a31g21x_hal_uartn.o --omf_browse .\objects\a31g21x_hal_uartn.crf --depend .\objects\a31g21x_hal_uartn.d)
+I (.\Source\Drivers\Include\A31G21x_hal_uartn.h)(0x6889B323)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_debug_frmwrk.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_usart1n.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_libcfg.h)(0x6889B323)
+F (.\Source\Drivers\Source\A31G21x_hal_usart1n.c)(0x68A5207A)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\a31g21x_hal_usart1n.o --omf_browse .\objects\a31g21x_hal_usart1n.crf --depend .\objects\a31g21x_hal_usart1n.d)
+I (.\Source\Drivers\Include\A31G21x_hal_usart1n.h)(0x6889B323)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+I (.\Source\Drivers\Include\A31G21x_hal_scu.h)(0x6889B323)
+F (.\Source\Drivers\Source\A31G21x_hal_wdt.c)(0x68A5207A)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\a31g21x_hal_wdt.o --omf_browse .\objects\a31g21x_hal_wdt.crf --depend .\objects\a31g21x_hal_wdt.d)
+I (.\Source\Drivers\Include\A31G21x_hal_wdt.h)(0x6889B323)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)
+F (.\Source\Drivers\Source\A31G21x_hal_wt.c)(0x68A5211D)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\a31g21x_hal_wt.o --omf_browse .\objects\a31g21x_hal_wt.crf --depend .\objects\a31g21x_hal_wt.d)
+I (.\Source\Drivers\Include\A31G21x_hal_wt.h)(0x6889B323)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
+I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (.\Source\Core\CMSIS\Include\core_cmInstr.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\cmsis_armcc.h)(0x6889B322)
+I (.\Source\Core\CMSIS\Include\core_cmFunc.h)(0x6889B322)
+I (.\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h)(0x6889B322)
+I (.\Source\Drivers\Include\A31G21x_hal_aa_types.h)(0x6889B323)

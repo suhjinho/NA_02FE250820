@@ -1,0 +1,16 @@
+.\objects\a31g21x_hal_debug_frmwrk.o: Source\Drivers\Source\A31G21x_hal_debug_frmwrk.c
+.\objects\a31g21x_hal_debug_frmwrk.o: C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\a31g21x_hal_debug_frmwrk.o: C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\a31g21x_hal_debug_frmwrk.o: .\Source\Drivers\Include\A31G21x_hal_debug_frmwrk.h
+.\objects\a31g21x_hal_debug_frmwrk.o: .\Source\Drivers\Include\A31G21x_hal_uartn.h
+.\objects\a31g21x_hal_debug_frmwrk.o: .\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h
+.\objects\a31g21x_hal_debug_frmwrk.o: .\Source\Core\CMSIS\Include\core_cm0plus.h
+.\objects\a31g21x_hal_debug_frmwrk.o: C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\a31g21x_hal_debug_frmwrk.o: .\Source\Core\CMSIS\Include\core_cmInstr.h
+.\objects\a31g21x_hal_debug_frmwrk.o: .\Source\Core\CMSIS\Include\cmsis_armcc.h
+.\objects\a31g21x_hal_debug_frmwrk.o: .\Source\Core\CMSIS\Include\core_cmFunc.h
+.\objects\a31g21x_hal_debug_frmwrk.o: .\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h
+.\objects\a31g21x_hal_debug_frmwrk.o: .\Source\Drivers\Include\A31G21x_hal_aa_types.h
+.\objects\a31g21x_hal_debug_frmwrk.o: .\Source\Drivers\Include\A31G21x_hal_usart1n.h
+.\objects\a31g21x_hal_debug_frmwrk.o: .\Source\Drivers\Include\A31G21x_hal_libcfg.h
+.\objects\a31g21x_hal_debug_frmwrk.o: .\Source\Drivers\Include\A31G21x_hal_pcu.h

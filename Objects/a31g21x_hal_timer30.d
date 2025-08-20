@@ -1,0 +1,10 @@
+.\objects\a31g21x_hal_timer30.o: Source\Drivers\Source\A31G21x_hal_timer30.c
+.\objects\a31g21x_hal_timer30.o: .\Source\Drivers\Include\A31G21x_hal_timer30.h
+.\objects\a31g21x_hal_timer30.o: .\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h
+.\objects\a31g21x_hal_timer30.o: .\Source\Core\CMSIS\Include\core_cm0plus.h
+.\objects\a31g21x_hal_timer30.o: C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\a31g21x_hal_timer30.o: .\Source\Core\CMSIS\Include\core_cmInstr.h
+.\objects\a31g21x_hal_timer30.o: .\Source\Core\CMSIS\Include\cmsis_armcc.h
+.\objects\a31g21x_hal_timer30.o: .\Source\Core\CMSIS\Include\core_cmFunc.h
+.\objects\a31g21x_hal_timer30.o: .\Source\Core\Device\ABOV\A31G21x\Include\system_A31G21x.h
+.\objects\a31g21x_hal_timer30.o: .\Source\Drivers\Include\A31G21x_hal_aa_types.h
