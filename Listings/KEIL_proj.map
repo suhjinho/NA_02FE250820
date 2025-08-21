@@ -1065,30 +1065,30 @@ Image Symbol Table
 
     RESET                                    0x00000000   Section      192  startup_a31g21x.o(RESET)
     ../clib/../cmprslib/zerorunl.c           0x00000000   Number         0  __dczerorl.o ABSOLUTE
+    ../clib/angel/boardlib.s                 0x00000000   Number         0  boardinit1.o ABSOLUTE
+    ../clib/angel/boardlib.s                 0x00000000   Number         0  boardinit2.o ABSOLUTE
     ../clib/angel/boardlib.s                 0x00000000   Number         0  boardinit3.o ABSOLUTE
     ../clib/angel/boardlib.s                 0x00000000   Number         0  boardshut.o ABSOLUTE
-    ../clib/angel/boardlib.s                 0x00000000   Number         0  boardinit2.o ABSOLUTE
-    ../clib/angel/boardlib.s                 0x00000000   Number         0  boardinit1.o ABSOLUTE
     ../clib/angel/handlers.s                 0x00000000   Number         0  __scatter_zi.o ABSOLUTE
-    ../clib/angel/kernel.s                   0x00000000   Number         0  rtexit2.o ABSOLUTE
-    ../clib/angel/kernel.s                   0x00000000   Number         0  rtexit.o ABSOLUTE
-    ../clib/angel/kernel.s                   0x00000000   Number         0  __rtentry.o ABSOLUTE
-    ../clib/angel/kernel.s                   0x00000000   Number         0  __rtentry2.o ABSOLUTE
     ../clib/angel/kernel.s                   0x00000000   Number         0  __rtentry4.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  __rtentry2.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  rtexit.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  rtexit2.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  __rtentry.o ABSOLUTE
     ../clib/angel/rt.s                       0x00000000   Number         0  rt_raise.o ABSOLUTE
+    ../clib/angel/rt.s                       0x00000000   Number         0  rt_div0.o ABSOLUTE
     ../clib/angel/rt.s                       0x00000000   Number         0  aeabi_idiv0.o ABSOLUTE
     ../clib/angel/rt.s                       0x00000000   Number         0  aeabi_idiv0_sigfpe.o ABSOLUTE
-    ../clib/angel/rt.s                       0x00000000   Number         0  rt_div0.o ABSOLUTE
     ../clib/angel/scatterp.s                 0x00000000   Number         0  __scatter.o ABSOLUTE
     ../clib/angel/startup.s                  0x00000000   Number         0  __main.o ABSOLUTE
+    ../clib/angel/sys.s                      0x00000000   Number         0  indicate_semi.o ABSOLUTE
+    ../clib/angel/sys.s                      0x00000000   Number         0  sys_stackheap_outer.o ABSOLUTE
     ../clib/angel/sys.s                      0x00000000   Number         0  libspace.o ABSOLUTE
     ../clib/angel/sys.s                      0x00000000   Number         0  tempstk.o ABSOLUTE
-    ../clib/angel/sys.s                      0x00000000   Number         0  indicate_semi.o ABSOLUTE
     ../clib/angel/sys.s                      0x00000000   Number         0  use_no_semi.o ABSOLUTE
-    ../clib/angel/sys.s                      0x00000000   Number         0  sys_stackheap_outer.o ABSOLUTE
-    ../clib/angel/sysapp.c                   0x00000000   Number         0  sys_command.o ABSOLUTE
-    ../clib/angel/sysapp.c                   0x00000000   Number         0  sys_wrch.o ABSOLUTE
     ../clib/angel/sysapp.c                   0x00000000   Number         0  sys_exit.o ABSOLUTE
+    ../clib/angel/sysapp.c                   0x00000000   Number         0  sys_wrch.o ABSOLUTE
+    ../clib/angel/sysapp.c                   0x00000000   Number         0  sys_command.o ABSOLUTE
     ../clib/armsys.c                         0x00000000   Number         0  no_argv.o ABSOLUTE
     ../clib/armsys.c                         0x00000000   Number         0  _get_argv_nomalloc.o ABSOLUTE
     ../clib/armsys.c                         0x00000000   Number         0  argv_veneer.o ABSOLUTE
@@ -1096,28 +1096,28 @@ Image Symbol Table
     ../clib/division.s                       0x00000000   Number         0  aeabi_sdiv_div0.o ABSOLUTE
     ../clib/heapalloc.c                      0x00000000   Number         0  hrguard.o ABSOLUTE
     ../clib/heapaux.c                        0x00000000   Number         0  heapauxi.o ABSOLUTE
-    ../clib/libinit.s                        0x00000000   Number         0  libshutdown.o ABSOLUTE
     ../clib/libinit.s                        0x00000000   Number         0  libshutdown2.o ABSOLUTE
     ../clib/libinit.s                        0x00000000   Number         0  libinit2.o ABSOLUTE
     ../clib/libinit.s                        0x00000000   Number         0  libinit.o ABSOLUTE
+    ../clib/libinit.s                        0x00000000   Number         0  libshutdown.o ABSOLUTE
     ../clib/memcpset.c                       0x00000000   Number         0  rt_memcpy.o ABSOLUTE
     ../clib/memcpset.c                       0x00000000   Number         0  rt_memcpy.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  defsig_fpe_inner.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  defsig_fpe_formal.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  defsig_fpe_outer.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  defsig_exit.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  defsig_segv_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_abrt_inner.o ABSOLUTE
     ../clib/signal.c                         0x00000000   Number         0  __raise.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  defsig_general.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  defsig_other.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  defsig_cppl_inner.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  defsig_stak_inner.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  defsig_rtmem_formal.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_rtred_inner.o ABSOLUTE
     ../clib/signal.c                         0x00000000   Number         0  defsig_rtmem_outer.o ABSOLUTE
     ../clib/signal.c                         0x00000000   Number         0  defsig_rtmem_inner.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  defsig_rtred_inner.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  defsig_abrt_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_cppl_inner.o ABSOLUTE
     ../clib/signal.c                         0x00000000   Number         0  defsig_pvfn_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_exit.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_general.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_fpe_formal.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_fpe_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_stak_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_rtmem_formal.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_segv_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_other.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_fpe_outer.o ABSOLUTE
     ../clib/signal.s                         0x00000000   Number         0  defsig.o ABSOLUTE
     ../clib/stdlib.c                         0x00000000   Number         0  exit.o ABSOLUTE
     ../fplib/cfplib/fdiv.c                   0x00000000   Number         0  fdiv.o ABSOLUTE
@@ -1252,8 +1252,8 @@ Image Symbol Table
     .text                                    0x0000053c   Section        8  libspace.o(.text)
     .text                                    0x00000544   Section        0  sys_exit.o(.text)
     .text                                    0x00000550   Section        2  use_no_semi.o(.text)
-    .text                                    0x00000552   Section        0  __dczerorl.o(.text)
     .text                                    0x00000552   Section        0  indicate_semi.o(.text)
+    .text                                    0x00000552   Section        0  __dczerorl.o(.text)
     i.ADC_Configure                          0x0000058c   Section        0  hal.o(i.ADC_Configure)
     i.Error_Handler                          0x000005d0   Section        0  hal.o(i.Error_Handler)
     i.FMC_WriteEraseRun                      0x000005e4   Section        0  app_ctl.o(i.FMC_WriteEraseRun)
@@ -1362,80 +1362,80 @@ Image Symbol Table
     i.get_key                                0x00002764   Section        0  key.o(i.get_key)
     i.get_last_err_code                      0x00002774   Section        0  modbus.o(i.get_last_err_code)
     i.get_snr_st                             0x00002784   Section        0  app_sensing.o(i.get_snr_st)
-    i.get_snr_state_modbud                   0x00002afc   Section        0  app_normal.o(i.get_snr_state_modbud)
-    i.get_snr_total_impedance                0x00002b40   Section        0  app_sensing.o(i.get_snr_total_impedance)
-    i.get_sys_config_bit                     0x00002b50   Section        0  app_data.o(i.get_sys_config_bit)
-    i.hal_get_key                            0x00002b68   Section        0  hal.o(i.hal_get_key)
-    i.init                                   0x00002b88   Section        0  app_ctl.o(i.init)
-    i.is_sensor_ready                        0x00002c50   Section        0  sensor.o(i.is_sensor_ready)
-    i.itoa                                   0x00002c5c   Section        0  fnd.o(i.itoa)
-    i.key_loop                               0x00002cb0   Section        0  key.o(i.key_loop)
-    i.load_all_data                          0x00002e2c   Section        0  app_data.o(i.load_all_data)
-    i.load_data                              0x00002e5c   Section        0  app_data.o(i.load_data)
-    i.main                                   0x00002ec0   Section        0  main.o(i.main)
-    i.memory_map_update                      0x00002f84   Section        0  modbus.o(i.memory_map_update)
-    i.modbus_loop                            0x00002ffc   Section        0  modbus.o(i.modbus_loop)
-    i.modbus_save_data                       0x00003230   Section        0  modbus.o(i.modbus_save_data)
-    i.modbus_time_out                        0x00003284   Section        0  modbus.o(i.modbus_time_out)
-    i.modbus_time_refresh                    0x000032c8   Section        0  modbus.o(i.modbus_time_refresh)
-    i.normal                                 0x000032d4   Section        0  app_normal.o(i.normal)
-    i.opening_buzzer                         0x0000347c   Section        0  sound.o(i.opening_buzzer)
-    i.relay_out                              0x000034d0   Section        0  io.o(i.relay_out)
-    i.save_data                              0x000034e8   Section        0  app_data.o(i.save_data)
-    i.send_errorcode                         0x0000354c   Section        0  modbus.o(i.send_errorcode)
-    i.send_packet                            0x0000359c   Section        0  modbus.o(i.send_packet)
-    i.send_reg                               0x00003640   Section        0  modbus.o(i.send_reg)
-    i.send_respone_single_reg                0x000036d8   Section        0  modbus.o(i.send_respone_single_reg)
-    i.send_single_data                       0x00003748   Section        0  modbus.o(i.send_single_data)
-    i.sensing                                0x000037ac   Section        0  sensor.o(i.sensing)
-    i.sensing_loop                           0x000037dc   Section        0  sensor.o(i.sensing_loop)
-    i.set_app_data                           0x00003a5c   Section        0  app_data.o(i.set_app_data)
-    i.set_app_data_ch                        0x00003a78   Section        0  app_data.o(i.set_app_data_ch)
-    i.set_msdelay1                           0x00003a9c   Section        0  hal.o(i.set_msdelay1)
-    i.set_sensor_enable                      0x00003aa8   Section        0  sensor.o(i.set_sensor_enable)
-    i.set_sensor_on                          0x00003ae8   Section        0  sensor.o(i.set_sensor_on)
-    i.set_sensor_sw_enable                   0x00003b10   Section        0  sensor.o(i.set_sensor_sw_enable)
-    i.set_sys_config_bit                     0x00003b38   Section        0  app_data.o(i.set_sys_config_bit)
-    i.setting                                0x00003b70   Section        0  app_setting.o(i.setting)
-    i.setting_broken_chk                     0x00003be4   Section        0  app_setting.o(i.setting_broken_chk)
-    i.setting_broken_sv1                     0x00003ca8   Section        0  app_setting.o(i.setting_broken_sv1)
-    i.setting_broken_sv2                     0x00003e30   Section        0  app_setting.o(i.setting_broken_sv2)
-    i.setting_buzzer                         0x00003fb8   Section        0  app_setting.o(i.setting_buzzer)
-    i.setting_exit                           0x00004088   Section        0  app_setting.o(i.setting_exit)
-    i.setting_factort_reset                  0x000040c4   Section        0  app_setting.o(i.setting_factort_reset)
-    i.setting_h2o_dry                        0x00004238   Section        0  app_setting.o(i.setting_h2o_dry)
-    i.setting_h2o_rel                        0x000042fc   Section        0  app_setting.o(i.setting_h2o_rel)
-    i.setting_modbus_id                      0x000043bc   Section        0  app_setting.o(i.setting_modbus_id)
-    i.setting_modbus_v                       0x00004534   Section        0  app_setting.o(i.setting_modbus_v)
-    i.setting_normal1                        0x0000461c   Section        0  app_setting.o(i.setting_normal1)
-    i.setting_normal2                        0x000047a4   Section        0  app_setting.o(i.setting_normal2)
-    i.setting_recovery_md                    0x0000492c   Section        0  app_setting.o(i.setting_recovery_md)
-    i.setting_relay_out_md                   0x000049f0   Section        0  app_setting.o(i.setting_relay_out_md)
-    i.setting_short_chk                      0x00004ab0   Section        0  app_setting.o(i.setting_short_chk)
-    i.setting_short_sv1                      0x00004b74   Section        0  app_setting.o(i.setting_short_sv1)
-    i.setting_short_sv2                      0x00004cfc   Section        0  app_setting.o(i.setting_short_sv2)
-    i.setting_snr_dt1                        0x00004e84   Section        0  app_setting.o(i.setting_snr_dt1)
-    i.setting_snr_dt2                        0x0000500c   Section        0  app_setting.o(i.setting_snr_dt2)
-    i.setting_snr_min1                       0x00005194   Section        0  app_setting.o(i.setting_snr_min1)
-    i.setting_snr_min2                       0x0000531c   Section        0  app_setting.o(i.setting_snr_min2)
-    i.setting_snr_pt1                        0x000054a4   Section        0  app_setting.o(i.setting_snr_pt1)
-    i.setting_snr_pt2                        0x0000562c   Section        0  app_setting.o(i.setting_snr_pt2)
-    i.setting_snr_sv_max1                    0x000057b4   Section        0  app_setting.o(i.setting_snr_sv_max1)
-    i.setting_snr_sv_max2                    0x0000593c   Section        0  app_setting.o(i.setting_snr_sv_max2)
-    i.sound_loop                             0x00005ac4   Section        0  sound.o(i.sound_loop)
-    i.task_1000ms                            0x00005ba4   Section        0  app_ctl.o(i.task_1000ms)
-    i.task_100ms                             0x00005bbc   Section        0  app_ctl.o(i.task_100ms)
-    i.task_100us_interrupt                   0x00005bcc   Section        0  app_ctl.o(i.task_100us_interrupt)
-    i.task_10ms                              0x00005bd4   Section        0  app_ctl.o(i.task_10ms)
-    i.task_1ms                               0x00005bdc   Section        0  app_ctl.o(i.task_1ms)
-    i.task_1ms_interrupt                     0x00005be4   Section        0  app_ctl.o(i.task_1ms_interrupt)
-    i.task_idle                              0x00005bec   Section        0  app_ctl.o(i.task_idle)
-    i.task_start                             0x00005bf4   Section        0  app_ctl.o(i.task_start)
-    i.tt_flash_iap_pgm                       0x00005c10   Section        0  hal.o(i.tt_flash_iap_pgm)
-    i.uart_tx                                0x00005c2c   Section        0  hal.o(i.uart_tx)
-    i.update_st_data                         0x00005c58   Section        0  app_normal.o(i.update_st_data)
-    i.update_st_error_t                      0x00005c68   Section        0  app_normal.o(i.update_st_error_t)
-    i.update_st_relay                        0x00005d04   Section        0  app_normal.o(i.update_st_relay)
+    i.get_snr_state_modbud                   0x00002af8   Section        0  app_normal.o(i.get_snr_state_modbud)
+    i.get_snr_total_impedance                0x00002b3c   Section        0  app_sensing.o(i.get_snr_total_impedance)
+    i.get_sys_config_bit                     0x00002b4c   Section        0  app_data.o(i.get_sys_config_bit)
+    i.hal_get_key                            0x00002b64   Section        0  hal.o(i.hal_get_key)
+    i.init                                   0x00002b84   Section        0  app_ctl.o(i.init)
+    i.is_sensor_ready                        0x00002c4c   Section        0  sensor.o(i.is_sensor_ready)
+    i.itoa                                   0x00002c58   Section        0  fnd.o(i.itoa)
+    i.key_loop                               0x00002cac   Section        0  key.o(i.key_loop)
+    i.load_all_data                          0x00002e28   Section        0  app_data.o(i.load_all_data)
+    i.load_data                              0x00002e58   Section        0  app_data.o(i.load_data)
+    i.main                                   0x00002ebc   Section        0  main.o(i.main)
+    i.memory_map_update                      0x00002f80   Section        0  modbus.o(i.memory_map_update)
+    i.modbus_loop                            0x00002ff8   Section        0  modbus.o(i.modbus_loop)
+    i.modbus_save_data                       0x0000322c   Section        0  modbus.o(i.modbus_save_data)
+    i.modbus_time_out                        0x00003280   Section        0  modbus.o(i.modbus_time_out)
+    i.modbus_time_refresh                    0x000032c4   Section        0  modbus.o(i.modbus_time_refresh)
+    i.normal                                 0x000032d0   Section        0  app_normal.o(i.normal)
+    i.opening_buzzer                         0x00003478   Section        0  sound.o(i.opening_buzzer)
+    i.relay_out                              0x000034cc   Section        0  io.o(i.relay_out)
+    i.save_data                              0x000034e4   Section        0  app_data.o(i.save_data)
+    i.send_errorcode                         0x00003548   Section        0  modbus.o(i.send_errorcode)
+    i.send_packet                            0x00003598   Section        0  modbus.o(i.send_packet)
+    i.send_reg                               0x0000363c   Section        0  modbus.o(i.send_reg)
+    i.send_respone_single_reg                0x000036d4   Section        0  modbus.o(i.send_respone_single_reg)
+    i.send_single_data                       0x00003744   Section        0  modbus.o(i.send_single_data)
+    i.sensing                                0x000037a8   Section        0  sensor.o(i.sensing)
+    i.sensing_loop                           0x000037d8   Section        0  sensor.o(i.sensing_loop)
+    i.set_app_data                           0x00003a78   Section        0  app_data.o(i.set_app_data)
+    i.set_app_data_ch                        0x00003a94   Section        0  app_data.o(i.set_app_data_ch)
+    i.set_msdelay1                           0x00003ab8   Section        0  hal.o(i.set_msdelay1)
+    i.set_sensor_enable                      0x00003ac4   Section        0  sensor.o(i.set_sensor_enable)
+    i.set_sensor_on                          0x00003b04   Section        0  sensor.o(i.set_sensor_on)
+    i.set_sensor_sw_enable                   0x00003b2c   Section        0  sensor.o(i.set_sensor_sw_enable)
+    i.set_sys_config_bit                     0x00003b54   Section        0  app_data.o(i.set_sys_config_bit)
+    i.setting                                0x00003b8c   Section        0  app_setting.o(i.setting)
+    i.setting_broken_chk                     0x00003c00   Section        0  app_setting.o(i.setting_broken_chk)
+    i.setting_broken_sv1                     0x00003cc4   Section        0  app_setting.o(i.setting_broken_sv1)
+    i.setting_broken_sv2                     0x00003e4c   Section        0  app_setting.o(i.setting_broken_sv2)
+    i.setting_buzzer                         0x00003fd4   Section        0  app_setting.o(i.setting_buzzer)
+    i.setting_exit                           0x000040a4   Section        0  app_setting.o(i.setting_exit)
+    i.setting_factort_reset                  0x000040e0   Section        0  app_setting.o(i.setting_factort_reset)
+    i.setting_h2o_dry                        0x00004254   Section        0  app_setting.o(i.setting_h2o_dry)
+    i.setting_h2o_rel                        0x00004318   Section        0  app_setting.o(i.setting_h2o_rel)
+    i.setting_modbus_id                      0x000043d8   Section        0  app_setting.o(i.setting_modbus_id)
+    i.setting_modbus_v                       0x00004550   Section        0  app_setting.o(i.setting_modbus_v)
+    i.setting_normal1                        0x00004638   Section        0  app_setting.o(i.setting_normal1)
+    i.setting_normal2                        0x000047c0   Section        0  app_setting.o(i.setting_normal2)
+    i.setting_recovery_md                    0x00004948   Section        0  app_setting.o(i.setting_recovery_md)
+    i.setting_relay_out_md                   0x00004a0c   Section        0  app_setting.o(i.setting_relay_out_md)
+    i.setting_short_chk                      0x00004acc   Section        0  app_setting.o(i.setting_short_chk)
+    i.setting_short_sv1                      0x00004b90   Section        0  app_setting.o(i.setting_short_sv1)
+    i.setting_short_sv2                      0x00004d18   Section        0  app_setting.o(i.setting_short_sv2)
+    i.setting_snr_dt1                        0x00004ea0   Section        0  app_setting.o(i.setting_snr_dt1)
+    i.setting_snr_dt2                        0x00005028   Section        0  app_setting.o(i.setting_snr_dt2)
+    i.setting_snr_min1                       0x000051b0   Section        0  app_setting.o(i.setting_snr_min1)
+    i.setting_snr_min2                       0x00005338   Section        0  app_setting.o(i.setting_snr_min2)
+    i.setting_snr_pt1                        0x000054c0   Section        0  app_setting.o(i.setting_snr_pt1)
+    i.setting_snr_pt2                        0x00005648   Section        0  app_setting.o(i.setting_snr_pt2)
+    i.setting_snr_sv_max1                    0x000057d0   Section        0  app_setting.o(i.setting_snr_sv_max1)
+    i.setting_snr_sv_max2                    0x00005958   Section        0  app_setting.o(i.setting_snr_sv_max2)
+    i.sound_loop                             0x00005ae0   Section        0  sound.o(i.sound_loop)
+    i.task_1000ms                            0x00005bc0   Section        0  app_ctl.o(i.task_1000ms)
+    i.task_100ms                             0x00005bd8   Section        0  app_ctl.o(i.task_100ms)
+    i.task_100us_interrupt                   0x00005be8   Section        0  app_ctl.o(i.task_100us_interrupt)
+    i.task_10ms                              0x00005bf0   Section        0  app_ctl.o(i.task_10ms)
+    i.task_1ms                               0x00005bf8   Section        0  app_ctl.o(i.task_1ms)
+    i.task_1ms_interrupt                     0x00005c00   Section        0  app_ctl.o(i.task_1ms_interrupt)
+    i.task_idle                              0x00005c08   Section        0  app_ctl.o(i.task_idle)
+    i.task_start                             0x00005c10   Section        0  app_ctl.o(i.task_start)
+    i.tt_flash_iap_pgm                       0x00005c2c   Section        0  hal.o(i.tt_flash_iap_pgm)
+    i.uart_tx                                0x00005c48   Section        0  hal.o(i.uart_tx)
+    i.update_st_data                         0x00005c74   Section        0  app_normal.o(i.update_st_data)
+    i.update_st_error_t                      0x00005c84   Section        0  app_normal.o(i.update_st_error_t)
+    i.update_st_relay                        0x00005d20   Section        0  app_normal.o(i.update_st_relay)
     x$fpl$fadd                               0x00005fa0   Section      140  faddsub.o(x$fpl$fadd)
     _fadd1                                   0x00005fad   Thumb Code     0  faddsub.o(x$fpl$fadd)
     x$fpl$fmul                               0x0000602c   Section      176  fmul.o(x$fpl$fmul)
@@ -1608,66 +1608,65 @@ Image Symbol Table
     .data                                    0x20000184   Section        2  queue.o(.data)
     front                                    0x20000184   Data           1  queue.o(.data)
     rear                                     0x20000185   Data           1  queue.o(.data)
-    .data                                    0x20000188   Section       74  sensor.o(.data)
+    .data                                    0x20000188   Section       84  sensor.o(.data)
     sensor_on                                0x20000188   Data           2  sensor.o(.data)
     sensor_index_cnt                         0x2000018a   Data           1  sensor.o(.data)
     sensor_impedance                         0x2000018e   Data           8  sensor.o(.data)
     snr_keep_cnt                             0x20000198   Data           8  sensor.o(.data)
     snr_pwoff_cnt                            0x200001a0   Data           8  sensor.o(.data)
     sensor_ready                             0x200001a8   Data           1  sensor.o(.data)
-    is_sener_chraging                        0x200001a9   Data           1  sensor.o(.data)
-    is_sener_low_impedance                   0x200001aa   Data           1  sensor.o(.data)
-    charging_low_impedance                   0x200001ac   Data           4  sensor.o(.data)
-    charging_high_impedance                  0x200001b0   Data           4  sensor.o(.data)
-    discharging_low_impedance                0x200001b4   Data           4  sensor.o(.data)
-    discharging_high_impedance               0x200001b8   Data           4  sensor.o(.data)
-    charging_avg_low_impedance               0x200001bc   Data           4  sensor.o(.data)
-    discharging_avg_low_impedance            0x200001c0   Data           4  sensor.o(.data)
-    charging_avg_high_impedance              0x200001c4   Data           4  sensor.o(.data)
-    discharging_avg_high_impedance           0x200001c8   Data           4  sensor.o(.data)
-    senser_cnt                               0x200001cc   Data           2  sensor.o(.data)
-    senser_avg_cnt                           0x200001ce   Data           2  sensor.o(.data)
-    t_snr_detail_cnt                         0x200001d0   Data           2  sensor.o(.data)
-    .data                                    0x200001d2   Section       22  modbus.o(.data)
-    function_code                            0x200001d2   Data           1  modbus.o(.data)
-    address                                  0x200001d4   Data           2  modbus.o(.data)
-    n_of_data                                0x200001d6   Data           2  modbus.o(.data)
-    rcv_data_byte                            0x200001d8   Data           1  modbus.o(.data)
-    packet_crc                               0x200001da   Data           2  modbus.o(.data)
-    modbus_lock_cnt                          0x200001dc   Data           2  modbus.o(.data)
-    crc_word                                 0x200001de   Data           2  modbus.o(.data)
-    packet_status                            0x200001e0   Data           1  modbus.o(.data)
-    data_cnt                                 0x200001e1   Data           1  modbus.o(.data)
-    packet_time_out                          0x200001e2   Data           1  modbus.o(.data)
-    modbud_err_code                          0x200001e3   Data           1  modbus.o(.data)
-    status                                   0x200001e4   Data           1  modbus.o(.data)
-    len                                      0x200001e6   Data           2  modbus.o(.data)
-    .data                                    0x200001e8   Section       11  fnd.o(.data)
-    brightness_max                           0x200001e8   Data           1  fnd.o(.data)
-    fnd_data                                 0x200001e9   Data           4  fnd.o(.data)
-    fnd_blink                                0x200001ed   Data           1  fnd.o(.data)
-    com_loop                                 0x200001ee   Data           1  fnd.o(.data)
-    blink_cnt                                0x200001f0   Data           2  fnd.o(.data)
-    tblink                                   0x200001f2   Data           1  fnd.o(.data)
-    .data                                    0x200001f4   Section        4  a31g21x_hal_usart1n.o(.data)
-    .bss                                     0x200001f8   Section       80  sound.o(.bss)
-    tone_freq                                0x200001f8   Data          80  sound.o(.bss)
-    .bss                                     0x20000248   Section       50  app_data.o(.bss)
-    app_data                                 0x20000248   Data          50  app_data.o(.bss)
-    .bss                                     0x2000027a   Section       10  queue.o(.bss)
-    queue                                    0x2000027a   Data          10  queue.o(.bss)
-    .bss                                     0x20000284   Section       16  sensor.o(.bss)
-    sensor_dis_impedance                     0x20000284   Data          16  sensor.o(.bss)
-    .bss                                     0x20000294   Section      148  modbus.o(.bss)
-    rcv_data                                 0x20000294   Data          20  modbus.o(.bss)
-    rx_data                                  0x200002a8   Data          88  modbus.o(.bss)
-    modbusmap                                0x20000300   Data          40  modbus.o(.bss)
-    .bss                                     0x20000328   Section       96  libspace.o(.bss)
-    HEAP                                     0x20000388   Section        0  startup_a31g21x.o(HEAP)
-    STACK                                    0x20000388   Section      512  startup_a31g21x.o(STACK)
-    Heap_Mem                                 0x20000388   Data           0  startup_a31g21x.o(HEAP)
-    Stack_Mem                                0x20000388   Data         512  startup_a31g21x.o(STACK)
-    __initial_sp                             0x20000588   Data           0  startup_a31g21x.o(STACK)
+    is_sener_chraging                        0x200001b4   Data           1  sensor.o(.data)
+    is_sener_low_impedance                   0x200001b5   Data           1  sensor.o(.data)
+    charging_low_impedance                   0x200001b8   Data           4  sensor.o(.data)
+    charging_high_impedance                  0x200001bc   Data           4  sensor.o(.data)
+    discharging_low_impedance                0x200001c0   Data           4  sensor.o(.data)
+    discharging_high_impedance               0x200001c4   Data           4  sensor.o(.data)
+    charging_avg_low_impedance               0x200001c8   Data           4  sensor.o(.data)
+    discharging_avg_low_impedance            0x200001cc   Data           4  sensor.o(.data)
+    charging_avg_high_impedance              0x200001d0   Data           4  sensor.o(.data)
+    discharging_avg_high_impedance           0x200001d4   Data           4  sensor.o(.data)
+    senser_cnt                               0x200001d8   Data           2  sensor.o(.data)
+    senser_avg_cnt                           0x200001da   Data           2  sensor.o(.data)
+    .data                                    0x200001dc   Section       22  modbus.o(.data)
+    function_code                            0x200001dc   Data           1  modbus.o(.data)
+    address                                  0x200001de   Data           2  modbus.o(.data)
+    n_of_data                                0x200001e0   Data           2  modbus.o(.data)
+    rcv_data_byte                            0x200001e2   Data           1  modbus.o(.data)
+    packet_crc                               0x200001e4   Data           2  modbus.o(.data)
+    modbus_lock_cnt                          0x200001e6   Data           2  modbus.o(.data)
+    crc_word                                 0x200001e8   Data           2  modbus.o(.data)
+    packet_status                            0x200001ea   Data           1  modbus.o(.data)
+    data_cnt                                 0x200001eb   Data           1  modbus.o(.data)
+    packet_time_out                          0x200001ec   Data           1  modbus.o(.data)
+    modbud_err_code                          0x200001ed   Data           1  modbus.o(.data)
+    status                                   0x200001ee   Data           1  modbus.o(.data)
+    len                                      0x200001f0   Data           2  modbus.o(.data)
+    .data                                    0x200001f2   Section       11  fnd.o(.data)
+    brightness_max                           0x200001f2   Data           1  fnd.o(.data)
+    fnd_data                                 0x200001f3   Data           4  fnd.o(.data)
+    fnd_blink                                0x200001f7   Data           1  fnd.o(.data)
+    com_loop                                 0x200001f8   Data           1  fnd.o(.data)
+    blink_cnt                                0x200001fa   Data           2  fnd.o(.data)
+    tblink                                   0x200001fc   Data           1  fnd.o(.data)
+    .data                                    0x20000200   Section        4  a31g21x_hal_usart1n.o(.data)
+    .bss                                     0x20000204   Section       80  sound.o(.bss)
+    tone_freq                                0x20000204   Data          80  sound.o(.bss)
+    .bss                                     0x20000254   Section       50  app_data.o(.bss)
+    app_data                                 0x20000254   Data          50  app_data.o(.bss)
+    .bss                                     0x20000286   Section       10  queue.o(.bss)
+    queue                                    0x20000286   Data          10  queue.o(.bss)
+    .bss                                     0x20000290   Section       16  sensor.o(.bss)
+    sensor_dis_impedance                     0x20000290   Data          16  sensor.o(.bss)
+    .bss                                     0x200002a0   Section      148  modbus.o(.bss)
+    rcv_data                                 0x200002a0   Data          20  modbus.o(.bss)
+    rx_data                                  0x200002b4   Data          88  modbus.o(.bss)
+    modbusmap                                0x2000030c   Data          40  modbus.o(.bss)
+    .bss                                     0x20000334   Section       96  libspace.o(.bss)
+    HEAP                                     0x20000398   Section        0  startup_a31g21x.o(HEAP)
+    STACK                                    0x20000398   Section      512  startup_a31g21x.o(STACK)
+    Heap_Mem                                 0x20000398   Data           0  startup_a31g21x.o(HEAP)
+    Stack_Mem                                0x20000398   Data         512  startup_a31g21x.o(STACK)
+    __initial_sp                             0x20000598   Data           0  startup_a31g21x.o(STACK)
 
     Global Symbols
 
@@ -1912,81 +1911,81 @@ Image Symbol Table
     get_diff_dis_impedance                   0x00002755   Thumb Code    10  app_sensing.o(i.get_diff_dis_impedance)
     get_key                                  0x00002765   Thumb Code    12  key.o(i.get_key)
     get_last_err_code                        0x00002775   Thumb Code    12  modbus.o(i.get_last_err_code)
-    get_snr_st                               0x00002785   Thumb Code   834  app_sensing.o(i.get_snr_st)
-    get_snr_state_modbud                     0x00002afd   Thumb Code    62  app_normal.o(i.get_snr_state_modbud)
-    get_snr_total_impedance                  0x00002b41   Thumb Code    12  app_sensing.o(i.get_snr_total_impedance)
-    get_sys_config_bit                       0x00002b51   Thumb Code    18  app_data.o(i.get_sys_config_bit)
-    hal_get_key                              0x00002b69   Thumb Code    32  hal.o(i.hal_get_key)
-    init                                     0x00002b89   Thumb Code   186  app_ctl.o(i.init)
-    is_sensor_ready                          0x00002c51   Thumb Code     6  sensor.o(i.is_sensor_ready)
-    itoa                                     0x00002c5d   Thumb Code    84  fnd.o(i.itoa)
-    key_loop                                 0x00002cb1   Thumb Code   352  key.o(i.key_loop)
-    load_all_data                            0x00002e2d   Thumb Code    42  app_data.o(i.load_all_data)
-    load_data                                0x00002e5d   Thumb Code    92  app_data.o(i.load_data)
-    main                                     0x00002ec1   Thumb Code   168  main.o(i.main)
-    memory_map_update                        0x00002f85   Thumb Code   116  modbus.o(i.memory_map_update)
-    modbus_loop                              0x00002ffd   Thumb Code   516  modbus.o(i.modbus_loop)
-    modbus_save_data                         0x00003231   Thumb Code    84  modbus.o(i.modbus_save_data)
-    modbus_time_out                          0x00003285   Thumb Code    52  modbus.o(i.modbus_time_out)
-    modbus_time_refresh                      0x000032c9   Thumb Code     8  modbus.o(i.modbus_time_refresh)
-    normal                                   0x000032d5   Thumb Code   356  app_normal.o(i.normal)
-    opening_buzzer                           0x0000347d   Thumb Code    54  sound.o(i.opening_buzzer)
-    relay_out                                0x000034d1   Thumb Code    24  io.o(i.relay_out)
-    save_data                                0x000034e9   Thumb Code    92  app_data.o(i.save_data)
-    send_errorcode                           0x0000354d   Thumb Code    72  modbus.o(i.send_errorcode)
-    send_packet                              0x0000359d   Thumb Code   150  modbus.o(i.send_packet)
-    send_reg                                 0x00003641   Thumb Code   144  modbus.o(i.send_reg)
-    send_respone_single_reg                  0x000036d9   Thumb Code   104  modbus.o(i.send_respone_single_reg)
-    send_single_data                         0x00003749   Thumb Code    92  modbus.o(i.send_single_data)
-    sensing                                  0x000037ad   Thumb Code    42  sensor.o(i.sensing)
-    sensing_loop                             0x000037dd   Thumb Code   562  sensor.o(i.sensing_loop)
-    set_app_data                             0x00003a5d   Thumb Code    24  app_data.o(i.set_app_data)
-    set_app_data_ch                          0x00003a79   Thumb Code    30  app_data.o(i.set_app_data_ch)
-    set_msdelay1                             0x00003a9d   Thumb Code     6  hal.o(i.set_msdelay1)
-    set_sensor_enable                        0x00003aa9   Thumb Code    60  sensor.o(i.set_sensor_enable)
-    set_sensor_on                            0x00003ae9   Thumb Code    36  sensor.o(i.set_sensor_on)
-    set_sensor_sw_enable                     0x00003b11   Thumb Code    32  sensor.o(i.set_sensor_sw_enable)
-    set_sys_config_bit                       0x00003b39   Thumb Code    50  app_data.o(i.set_sys_config_bit)
-    setting                                  0x00003b71   Thumb Code   106  app_setting.o(i.setting)
-    setting_broken_chk                       0x00003be5   Thumb Code   164  app_setting.o(i.setting_broken_chk)
-    setting_broken_sv1                       0x00003ca9   Thumb Code   362  app_setting.o(i.setting_broken_sv1)
-    setting_broken_sv2                       0x00003e31   Thumb Code   362  app_setting.o(i.setting_broken_sv2)
-    setting_buzzer                           0x00003fb9   Thumb Code   176  app_setting.o(i.setting_buzzer)
-    setting_exit                             0x00004089   Thumb Code    52  app_setting.o(i.setting_exit)
-    setting_factort_reset                    0x000040c5   Thumb Code   344  app_setting.o(i.setting_factort_reset)
-    setting_h2o_dry                          0x00004239   Thumb Code   164  app_setting.o(i.setting_h2o_dry)
-    setting_h2o_rel                          0x000042fd   Thumb Code   158  app_setting.o(i.setting_h2o_rel)
-    setting_modbus_id                        0x000043bd   Thumb Code   346  app_setting.o(i.setting_modbus_id)
-    setting_modbus_v                         0x00004535   Thumb Code   192  app_setting.o(i.setting_modbus_v)
-    setting_normal1                          0x0000461d   Thumb Code   362  app_setting.o(i.setting_normal1)
-    setting_normal2                          0x000047a5   Thumb Code   362  app_setting.o(i.setting_normal2)
-    setting_recovery_md                      0x0000492d   Thumb Code   164  app_setting.o(i.setting_recovery_md)
-    setting_relay_out_md                     0x000049f1   Thumb Code   158  app_setting.o(i.setting_relay_out_md)
-    setting_short_chk                        0x00004ab1   Thumb Code   164  app_setting.o(i.setting_short_chk)
-    setting_short_sv1                        0x00004b75   Thumb Code   362  app_setting.o(i.setting_short_sv1)
-    setting_short_sv2                        0x00004cfd   Thumb Code   362  app_setting.o(i.setting_short_sv2)
-    setting_snr_dt1                          0x00004e85   Thumb Code   358  app_setting.o(i.setting_snr_dt1)
-    setting_snr_dt2                          0x0000500d   Thumb Code   358  app_setting.o(i.setting_snr_dt2)
-    setting_snr_min1                         0x00005195   Thumb Code   362  app_setting.o(i.setting_snr_min1)
-    setting_snr_min2                         0x0000531d   Thumb Code   362  app_setting.o(i.setting_snr_min2)
-    setting_snr_pt1                          0x000054a5   Thumb Code   358  app_setting.o(i.setting_snr_pt1)
-    setting_snr_pt2                          0x0000562d   Thumb Code   358  app_setting.o(i.setting_snr_pt2)
-    setting_snr_sv_max1                      0x000057b5   Thumb Code   362  app_setting.o(i.setting_snr_sv_max1)
-    setting_snr_sv_max2                      0x0000593d   Thumb Code   362  app_setting.o(i.setting_snr_sv_max2)
-    sound_loop                               0x00005ac5   Thumb Code   192  sound.o(i.sound_loop)
-    task_1000ms                              0x00005ba5   Thumb Code    24  app_ctl.o(i.task_1000ms)
-    task_100ms                               0x00005bbd   Thumb Code    16  app_ctl.o(i.task_100ms)
-    task_100us_interrupt                     0x00005bcd   Thumb Code     8  app_ctl.o(i.task_100us_interrupt)
-    task_10ms                                0x00005bd5   Thumb Code     8  app_ctl.o(i.task_10ms)
-    task_1ms                                 0x00005bdd   Thumb Code     8  app_ctl.o(i.task_1ms)
-    task_1ms_interrupt                       0x00005be5   Thumb Code     8  app_ctl.o(i.task_1ms_interrupt)
-    task_idle                                0x00005bed   Thumb Code     8  app_ctl.o(i.task_idle)
-    task_start                               0x00005bf5   Thumb Code    28  app_ctl.o(i.task_start)
-    tt_flash_iap_pgm                         0x00005c11   Thumb Code    24  hal.o(i.tt_flash_iap_pgm)
-    uart_tx                                  0x00005c2d   Thumb Code    38  hal.o(i.uart_tx)
-    update_st_data                           0x00005c59   Thumb Code    10  app_normal.o(i.update_st_data)
-    update_st_error_t                        0x00005c69   Thumb Code   146  app_normal.o(i.update_st_error_t)
-    update_st_relay                          0x00005d05   Thumb Code   644  app_normal.o(i.update_st_relay)
+    get_snr_st                               0x00002785   Thumb Code   832  app_sensing.o(i.get_snr_st)
+    get_snr_state_modbud                     0x00002af9   Thumb Code    62  app_normal.o(i.get_snr_state_modbud)
+    get_snr_total_impedance                  0x00002b3d   Thumb Code    12  app_sensing.o(i.get_snr_total_impedance)
+    get_sys_config_bit                       0x00002b4d   Thumb Code    18  app_data.o(i.get_sys_config_bit)
+    hal_get_key                              0x00002b65   Thumb Code    32  hal.o(i.hal_get_key)
+    init                                     0x00002b85   Thumb Code   186  app_ctl.o(i.init)
+    is_sensor_ready                          0x00002c4d   Thumb Code     6  sensor.o(i.is_sensor_ready)
+    itoa                                     0x00002c59   Thumb Code    84  fnd.o(i.itoa)
+    key_loop                                 0x00002cad   Thumb Code   352  key.o(i.key_loop)
+    load_all_data                            0x00002e29   Thumb Code    42  app_data.o(i.load_all_data)
+    load_data                                0x00002e59   Thumb Code    92  app_data.o(i.load_data)
+    main                                     0x00002ebd   Thumb Code   168  main.o(i.main)
+    memory_map_update                        0x00002f81   Thumb Code   116  modbus.o(i.memory_map_update)
+    modbus_loop                              0x00002ff9   Thumb Code   516  modbus.o(i.modbus_loop)
+    modbus_save_data                         0x0000322d   Thumb Code    84  modbus.o(i.modbus_save_data)
+    modbus_time_out                          0x00003281   Thumb Code    52  modbus.o(i.modbus_time_out)
+    modbus_time_refresh                      0x000032c5   Thumb Code     8  modbus.o(i.modbus_time_refresh)
+    normal                                   0x000032d1   Thumb Code   356  app_normal.o(i.normal)
+    opening_buzzer                           0x00003479   Thumb Code    54  sound.o(i.opening_buzzer)
+    relay_out                                0x000034cd   Thumb Code    24  io.o(i.relay_out)
+    save_data                                0x000034e5   Thumb Code    92  app_data.o(i.save_data)
+    send_errorcode                           0x00003549   Thumb Code    72  modbus.o(i.send_errorcode)
+    send_packet                              0x00003599   Thumb Code   150  modbus.o(i.send_packet)
+    send_reg                                 0x0000363d   Thumb Code   144  modbus.o(i.send_reg)
+    send_respone_single_reg                  0x000036d5   Thumb Code   104  modbus.o(i.send_respone_single_reg)
+    send_single_data                         0x00003745   Thumb Code    92  modbus.o(i.send_single_data)
+    sensing                                  0x000037a9   Thumb Code    42  sensor.o(i.sensing)
+    sensing_loop                             0x000037d9   Thumb Code   584  sensor.o(i.sensing_loop)
+    set_app_data                             0x00003a79   Thumb Code    24  app_data.o(i.set_app_data)
+    set_app_data_ch                          0x00003a95   Thumb Code    30  app_data.o(i.set_app_data_ch)
+    set_msdelay1                             0x00003ab9   Thumb Code     6  hal.o(i.set_msdelay1)
+    set_sensor_enable                        0x00003ac5   Thumb Code    60  sensor.o(i.set_sensor_enable)
+    set_sensor_on                            0x00003b05   Thumb Code    36  sensor.o(i.set_sensor_on)
+    set_sensor_sw_enable                     0x00003b2d   Thumb Code    32  sensor.o(i.set_sensor_sw_enable)
+    set_sys_config_bit                       0x00003b55   Thumb Code    50  app_data.o(i.set_sys_config_bit)
+    setting                                  0x00003b8d   Thumb Code   106  app_setting.o(i.setting)
+    setting_broken_chk                       0x00003c01   Thumb Code   164  app_setting.o(i.setting_broken_chk)
+    setting_broken_sv1                       0x00003cc5   Thumb Code   362  app_setting.o(i.setting_broken_sv1)
+    setting_broken_sv2                       0x00003e4d   Thumb Code   362  app_setting.o(i.setting_broken_sv2)
+    setting_buzzer                           0x00003fd5   Thumb Code   176  app_setting.o(i.setting_buzzer)
+    setting_exit                             0x000040a5   Thumb Code    52  app_setting.o(i.setting_exit)
+    setting_factort_reset                    0x000040e1   Thumb Code   344  app_setting.o(i.setting_factort_reset)
+    setting_h2o_dry                          0x00004255   Thumb Code   164  app_setting.o(i.setting_h2o_dry)
+    setting_h2o_rel                          0x00004319   Thumb Code   158  app_setting.o(i.setting_h2o_rel)
+    setting_modbus_id                        0x000043d9   Thumb Code   346  app_setting.o(i.setting_modbus_id)
+    setting_modbus_v                         0x00004551   Thumb Code   192  app_setting.o(i.setting_modbus_v)
+    setting_normal1                          0x00004639   Thumb Code   362  app_setting.o(i.setting_normal1)
+    setting_normal2                          0x000047c1   Thumb Code   362  app_setting.o(i.setting_normal2)
+    setting_recovery_md                      0x00004949   Thumb Code   164  app_setting.o(i.setting_recovery_md)
+    setting_relay_out_md                     0x00004a0d   Thumb Code   158  app_setting.o(i.setting_relay_out_md)
+    setting_short_chk                        0x00004acd   Thumb Code   164  app_setting.o(i.setting_short_chk)
+    setting_short_sv1                        0x00004b91   Thumb Code   362  app_setting.o(i.setting_short_sv1)
+    setting_short_sv2                        0x00004d19   Thumb Code   362  app_setting.o(i.setting_short_sv2)
+    setting_snr_dt1                          0x00004ea1   Thumb Code   358  app_setting.o(i.setting_snr_dt1)
+    setting_snr_dt2                          0x00005029   Thumb Code   358  app_setting.o(i.setting_snr_dt2)
+    setting_snr_min1                         0x000051b1   Thumb Code   362  app_setting.o(i.setting_snr_min1)
+    setting_snr_min2                         0x00005339   Thumb Code   362  app_setting.o(i.setting_snr_min2)
+    setting_snr_pt1                          0x000054c1   Thumb Code   358  app_setting.o(i.setting_snr_pt1)
+    setting_snr_pt2                          0x00005649   Thumb Code   358  app_setting.o(i.setting_snr_pt2)
+    setting_snr_sv_max1                      0x000057d1   Thumb Code   362  app_setting.o(i.setting_snr_sv_max1)
+    setting_snr_sv_max2                      0x00005959   Thumb Code   362  app_setting.o(i.setting_snr_sv_max2)
+    sound_loop                               0x00005ae1   Thumb Code   192  sound.o(i.sound_loop)
+    task_1000ms                              0x00005bc1   Thumb Code    24  app_ctl.o(i.task_1000ms)
+    task_100ms                               0x00005bd9   Thumb Code    16  app_ctl.o(i.task_100ms)
+    task_100us_interrupt                     0x00005be9   Thumb Code     8  app_ctl.o(i.task_100us_interrupt)
+    task_10ms                                0x00005bf1   Thumb Code     8  app_ctl.o(i.task_10ms)
+    task_1ms                                 0x00005bf9   Thumb Code     8  app_ctl.o(i.task_1ms)
+    task_1ms_interrupt                       0x00005c01   Thumb Code     8  app_ctl.o(i.task_1ms_interrupt)
+    task_idle                                0x00005c09   Thumb Code     8  app_ctl.o(i.task_idle)
+    task_start                               0x00005c11   Thumb Code    28  app_ctl.o(i.task_start)
+    tt_flash_iap_pgm                         0x00005c2d   Thumb Code    24  hal.o(i.tt_flash_iap_pgm)
+    uart_tx                                  0x00005c49   Thumb Code    38  hal.o(i.uart_tx)
+    update_st_data                           0x00005c75   Thumb Code    10  app_normal.o(i.update_st_data)
+    update_st_error_t                        0x00005c85   Thumb Code   146  app_normal.o(i.update_st_error_t)
+    update_st_relay                          0x00005d21   Thumb Code   614  app_normal.o(i.update_st_relay)
     __aeabi_fadd                             0x00005fa1   Thumb Code     0  faddsub.o(x$fpl$fadd)
     _fadd                                    0x00005fa1   Thumb Code   134  faddsub.o(x$fpl$fadd)
     __aeabi_fmul                             0x0000602d   Thumb Code     0  fmul.o(x$fpl$fmul)
@@ -2002,9 +2001,12 @@ Image Symbol Table
     setting_func                             0x2000006c   Data         100  app_setting.o(.data)
     t_sensing                                0x2000018c   Data           2  sensor.o(.data)
     water_ref                                0x20000196   Data           2  sensor.o(.data)
-    UsartBaseClock                           0x200001f4   Data           4  a31g21x_hal_usart1n.o(.data)
-    __libspace_start                         0x20000328   Data          96  libspace.o(.bss)
-    __temporary_stack_top$libspace           0x20000388   Data           0  libspace.o(.bss)
+    t_ADC                                    0x200001aa   Data           2  sensor.o(.data)
+    t_adc_er_1                               0x200001ac   Data           4  sensor.o(.data)
+    t_adc_er_2                               0x200001b0   Data           4  sensor.o(.data)
+    UsartBaseClock                           0x20000200   Data           4  a31g21x_hal_usart1n.o(.data)
+    __libspace_start                         0x20000334   Data          96  libspace.o(.bss)
+    __temporary_stack_top$libspace           0x20000394   Data           0  libspace.o(.bss)
 
 
 
@@ -2014,7 +2016,7 @@ Memory Map of the image
 
   Image Entry point : 0x000000c1
 
-  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x0000722c, Max: 0x00010000, ABSOLUTE, COMPRESSED[0x00007094])
+  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x00007238, Max: 0x00010000, ABSOLUTE, COMPRESSED[0x00007094])
 
     Execution Region ER_IROM1 (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x00007034, Max: 0x00010000, ABSOLUTE)
 
@@ -2189,81 +2191,81 @@ Memory Map of the image
     0x00002754   0x00002754   0x00000010   Code   RO          629    i.get_diff_dis_impedance  app_sensing.o
     0x00002764   0x00002764   0x00000010   Code   RO          539    i.get_key           key.o
     0x00002774   0x00002774   0x00000010   Code   RO         1315    i.get_last_err_code  modbus.o
-    0x00002784   0x00002784   0x00000378   Code   RO          631    i.get_snr_st        app_sensing.o
-    0x00002afc   0x00002afc   0x00000044   Code   RO          770    i.get_snr_state_modbud  app_normal.o
-    0x00002b40   0x00002b40   0x00000010   Code   RO          632    i.get_snr_total_impedance  app_sensing.o
-    0x00002b50   0x00002b50   0x00000018   Code   RO         1031    i.get_sys_config_bit  app_data.o
-    0x00002b68   0x00002b68   0x00000020   Code   RO          354    i.hal_get_key       hal.o
-    0x00002b88   0x00002b88   0x000000c8   Code   RO          678    i.init              app_ctl.o
-    0x00002c50   0x00002c50   0x0000000c   Code   RO         1172    i.is_sensor_ready   sensor.o
-    0x00002c5c   0x00002c5c   0x00000054   Code   RO         1490    i.itoa              fnd.o
-    0x00002cb0   0x00002cb0   0x0000017c   Code   RO          540    i.key_loop          key.o
-    0x00002e2c   0x00002e2c   0x00000030   Code   RO         1032    i.load_all_data     app_data.o
-    0x00002e5c   0x00002e5c   0x00000064   Code   RO         1033    i.load_data         app_data.o
-    0x00002ec0   0x00002ec0   0x000000c4   Code   RO          143    i.main              main.o
-    0x00002f84   0x00002f84   0x00000078   Code   RO         1319    i.memory_map_update  modbus.o
-    0x00002ffc   0x00002ffc   0x00000234   Code   RO         1320    i.modbus_loop       modbus.o
-    0x00003230   0x00003230   0x00000054   Code   RO         1321    i.modbus_save_data  modbus.o
-    0x00003284   0x00003284   0x00000044   Code   RO         1322    i.modbus_time_out   modbus.o
-    0x000032c8   0x000032c8   0x0000000c   Code   RO         1323    i.modbus_time_refresh  modbus.o
-    0x000032d4   0x000032d4   0x000001a8   Code   RO          771    i.normal            app_normal.o
-    0x0000347c   0x0000347c   0x00000054   Code   RO          572    i.opening_buzzer    sound.o
-    0x000034d0   0x000034d0   0x00000018   Code   RO         1292    i.relay_out         io.o
-    0x000034e8   0x000034e8   0x00000064   Code   RO         1034    i.save_data         app_data.o
-    0x0000354c   0x0000354c   0x00000050   Code   RO         1324    i.send_errorcode    modbus.o
-    0x0000359c   0x0000359c   0x000000a4   Code   RO         1325    i.send_packet       modbus.o
-    0x00003640   0x00003640   0x00000098   Code   RO         1326    i.send_reg          modbus.o
-    0x000036d8   0x000036d8   0x00000070   Code   RO         1327    i.send_respone_single_reg  modbus.o
-    0x00003748   0x00003748   0x00000064   Code   RO         1328    i.send_single_data  modbus.o
-    0x000037ac   0x000037ac   0x00000030   Code   RO         1174    i.sensing           sensor.o
-    0x000037dc   0x000037dc   0x00000280   Code   RO         1175    i.sensing_loop      sensor.o
-    0x00003a5c   0x00003a5c   0x0000001c   Code   RO         1035    i.set_app_data      app_data.o
-    0x00003a78   0x00003a78   0x00000024   Code   RO         1036    i.set_app_data_ch   app_data.o
-    0x00003a9c   0x00003a9c   0x0000000c   Code   RO          356    i.set_msdelay1      hal.o
-    0x00003aa8   0x00003aa8   0x00000040   Code   RO         1176    i.set_sensor_enable  sensor.o
-    0x00003ae8   0x00003ae8   0x00000028   Code   RO         1177    i.set_sensor_on     sensor.o
-    0x00003b10   0x00003b10   0x00000028   Code   RO         1178    i.set_sensor_sw_enable  sensor.o
-    0x00003b38   0x00003b38   0x00000038   Code   RO         1038    i.set_sys_config_bit  app_data.o
-    0x00003b70   0x00003b70   0x00000074   Code   RO          824    i.setting           app_setting.o
-    0x00003be4   0x00003be4   0x000000c4   Code   RO          825    i.setting_broken_chk  app_setting.o
-    0x00003ca8   0x00003ca8   0x00000188   Code   RO          826    i.setting_broken_sv1  app_setting.o
-    0x00003e30   0x00003e30   0x00000188   Code   RO          827    i.setting_broken_sv2  app_setting.o
-    0x00003fb8   0x00003fb8   0x000000d0   Code   RO          828    i.setting_buzzer    app_setting.o
-    0x00004088   0x00004088   0x0000003c   Code   RO          831    i.setting_exit      app_setting.o
-    0x000040c4   0x000040c4   0x00000174   Code   RO          832    i.setting_factort_reset  app_setting.o
-    0x00004238   0x00004238   0x000000c4   Code   RO          833    i.setting_h2o_dry   app_setting.o
-    0x000042fc   0x000042fc   0x000000c0   Code   RO          834    i.setting_h2o_rel   app_setting.o
-    0x000043bc   0x000043bc   0x00000178   Code   RO          837    i.setting_modbus_id  app_setting.o
-    0x00004534   0x00004534   0x000000e8   Code   RO          838    i.setting_modbus_v  app_setting.o
-    0x0000461c   0x0000461c   0x00000188   Code   RO          839    i.setting_normal1   app_setting.o
-    0x000047a4   0x000047a4   0x00000188   Code   RO          840    i.setting_normal2   app_setting.o
-    0x0000492c   0x0000492c   0x000000c4   Code   RO          841    i.setting_recovery_md  app_setting.o
-    0x000049f0   0x000049f0   0x000000c0   Code   RO          842    i.setting_relay_out_md  app_setting.o
-    0x00004ab0   0x00004ab0   0x000000c4   Code   RO          843    i.setting_short_chk  app_setting.o
-    0x00004b74   0x00004b74   0x00000188   Code   RO          844    i.setting_short_sv1  app_setting.o
-    0x00004cfc   0x00004cfc   0x00000188   Code   RO          845    i.setting_short_sv2  app_setting.o
-    0x00004e84   0x00004e84   0x00000188   Code   RO          846    i.setting_snr_dt1   app_setting.o
-    0x0000500c   0x0000500c   0x00000188   Code   RO          847    i.setting_snr_dt2   app_setting.o
-    0x00005194   0x00005194   0x00000188   Code   RO          848    i.setting_snr_min1  app_setting.o
-    0x0000531c   0x0000531c   0x00000188   Code   RO          849    i.setting_snr_min2  app_setting.o
-    0x000054a4   0x000054a4   0x00000188   Code   RO          850    i.setting_snr_pt1   app_setting.o
-    0x0000562c   0x0000562c   0x00000188   Code   RO          851    i.setting_snr_pt2   app_setting.o
-    0x000057b4   0x000057b4   0x00000188   Code   RO          852    i.setting_snr_sv_max1  app_setting.o
-    0x0000593c   0x0000593c   0x00000188   Code   RO          853    i.setting_snr_sv_max2  app_setting.o
-    0x00005ac4   0x00005ac4   0x000000e0   Code   RO          573    i.sound_loop        sound.o
-    0x00005ba4   0x00005ba4   0x00000018   Code   RO          679    i.task_1000ms       app_ctl.o
-    0x00005bbc   0x00005bbc   0x00000010   Code   RO          680    i.task_100ms        app_ctl.o
-    0x00005bcc   0x00005bcc   0x00000008   Code   RO          681    i.task_100us_interrupt  app_ctl.o
-    0x00005bd4   0x00005bd4   0x00000008   Code   RO          682    i.task_10ms         app_ctl.o
-    0x00005bdc   0x00005bdc   0x00000008   Code   RO          683    i.task_1ms          app_ctl.o
-    0x00005be4   0x00005be4   0x00000008   Code   RO          684    i.task_1ms_interrupt  app_ctl.o
-    0x00005bec   0x00005bec   0x00000008   Code   RO          685    i.task_idle         app_ctl.o
-    0x00005bf4   0x00005bf4   0x0000001c   Code   RO          686    i.task_start        app_ctl.o
-    0x00005c10   0x00005c10   0x0000001c   Code   RO          358    i.tt_flash_iap_pgm  hal.o
-    0x00005c2c   0x00005c2c   0x0000002c   Code   RO          360    i.uart_tx           hal.o
-    0x00005c58   0x00005c58   0x00000010   Code   RO          772    i.update_st_data    app_normal.o
-    0x00005c68   0x00005c68   0x0000009c   Code   RO          773    i.update_st_error_t  app_normal.o
-    0x00005d04   0x00005d04   0x0000029c   Code   RO          774    i.update_st_relay   app_normal.o
+    0x00002784   0x00002784   0x00000374   Code   RO          631    i.get_snr_st        app_sensing.o
+    0x00002af8   0x00002af8   0x00000044   Code   RO          770    i.get_snr_state_modbud  app_normal.o
+    0x00002b3c   0x00002b3c   0x00000010   Code   RO          632    i.get_snr_total_impedance  app_sensing.o
+    0x00002b4c   0x00002b4c   0x00000018   Code   RO         1031    i.get_sys_config_bit  app_data.o
+    0x00002b64   0x00002b64   0x00000020   Code   RO          354    i.hal_get_key       hal.o
+    0x00002b84   0x00002b84   0x000000c8   Code   RO          678    i.init              app_ctl.o
+    0x00002c4c   0x00002c4c   0x0000000c   Code   RO         1172    i.is_sensor_ready   sensor.o
+    0x00002c58   0x00002c58   0x00000054   Code   RO         1490    i.itoa              fnd.o
+    0x00002cac   0x00002cac   0x0000017c   Code   RO          540    i.key_loop          key.o
+    0x00002e28   0x00002e28   0x00000030   Code   RO         1032    i.load_all_data     app_data.o
+    0x00002e58   0x00002e58   0x00000064   Code   RO         1033    i.load_data         app_data.o
+    0x00002ebc   0x00002ebc   0x000000c4   Code   RO          143    i.main              main.o
+    0x00002f80   0x00002f80   0x00000078   Code   RO         1319    i.memory_map_update  modbus.o
+    0x00002ff8   0x00002ff8   0x00000234   Code   RO         1320    i.modbus_loop       modbus.o
+    0x0000322c   0x0000322c   0x00000054   Code   RO         1321    i.modbus_save_data  modbus.o
+    0x00003280   0x00003280   0x00000044   Code   RO         1322    i.modbus_time_out   modbus.o
+    0x000032c4   0x000032c4   0x0000000c   Code   RO         1323    i.modbus_time_refresh  modbus.o
+    0x000032d0   0x000032d0   0x000001a8   Code   RO          771    i.normal            app_normal.o
+    0x00003478   0x00003478   0x00000054   Code   RO          572    i.opening_buzzer    sound.o
+    0x000034cc   0x000034cc   0x00000018   Code   RO         1292    i.relay_out         io.o
+    0x000034e4   0x000034e4   0x00000064   Code   RO         1034    i.save_data         app_data.o
+    0x00003548   0x00003548   0x00000050   Code   RO         1324    i.send_errorcode    modbus.o
+    0x00003598   0x00003598   0x000000a4   Code   RO         1325    i.send_packet       modbus.o
+    0x0000363c   0x0000363c   0x00000098   Code   RO         1326    i.send_reg          modbus.o
+    0x000036d4   0x000036d4   0x00000070   Code   RO         1327    i.send_respone_single_reg  modbus.o
+    0x00003744   0x00003744   0x00000064   Code   RO         1328    i.send_single_data  modbus.o
+    0x000037a8   0x000037a8   0x00000030   Code   RO         1174    i.sensing           sensor.o
+    0x000037d8   0x000037d8   0x000002a0   Code   RO         1175    i.sensing_loop      sensor.o
+    0x00003a78   0x00003a78   0x0000001c   Code   RO         1035    i.set_app_data      app_data.o
+    0x00003a94   0x00003a94   0x00000024   Code   RO         1036    i.set_app_data_ch   app_data.o
+    0x00003ab8   0x00003ab8   0x0000000c   Code   RO          356    i.set_msdelay1      hal.o
+    0x00003ac4   0x00003ac4   0x00000040   Code   RO         1176    i.set_sensor_enable  sensor.o
+    0x00003b04   0x00003b04   0x00000028   Code   RO         1177    i.set_sensor_on     sensor.o
+    0x00003b2c   0x00003b2c   0x00000028   Code   RO         1178    i.set_sensor_sw_enable  sensor.o
+    0x00003b54   0x00003b54   0x00000038   Code   RO         1038    i.set_sys_config_bit  app_data.o
+    0x00003b8c   0x00003b8c   0x00000074   Code   RO          824    i.setting           app_setting.o
+    0x00003c00   0x00003c00   0x000000c4   Code   RO          825    i.setting_broken_chk  app_setting.o
+    0x00003cc4   0x00003cc4   0x00000188   Code   RO          826    i.setting_broken_sv1  app_setting.o
+    0x00003e4c   0x00003e4c   0x00000188   Code   RO          827    i.setting_broken_sv2  app_setting.o
+    0x00003fd4   0x00003fd4   0x000000d0   Code   RO          828    i.setting_buzzer    app_setting.o
+    0x000040a4   0x000040a4   0x0000003c   Code   RO          831    i.setting_exit      app_setting.o
+    0x000040e0   0x000040e0   0x00000174   Code   RO          832    i.setting_factort_reset  app_setting.o
+    0x00004254   0x00004254   0x000000c4   Code   RO          833    i.setting_h2o_dry   app_setting.o
+    0x00004318   0x00004318   0x000000c0   Code   RO          834    i.setting_h2o_rel   app_setting.o
+    0x000043d8   0x000043d8   0x00000178   Code   RO          837    i.setting_modbus_id  app_setting.o
+    0x00004550   0x00004550   0x000000e8   Code   RO          838    i.setting_modbus_v  app_setting.o
+    0x00004638   0x00004638   0x00000188   Code   RO          839    i.setting_normal1   app_setting.o
+    0x000047c0   0x000047c0   0x00000188   Code   RO          840    i.setting_normal2   app_setting.o
+    0x00004948   0x00004948   0x000000c4   Code   RO          841    i.setting_recovery_md  app_setting.o
+    0x00004a0c   0x00004a0c   0x000000c0   Code   RO          842    i.setting_relay_out_md  app_setting.o
+    0x00004acc   0x00004acc   0x000000c4   Code   RO          843    i.setting_short_chk  app_setting.o
+    0x00004b90   0x00004b90   0x00000188   Code   RO          844    i.setting_short_sv1  app_setting.o
+    0x00004d18   0x00004d18   0x00000188   Code   RO          845    i.setting_short_sv2  app_setting.o
+    0x00004ea0   0x00004ea0   0x00000188   Code   RO          846    i.setting_snr_dt1   app_setting.o
+    0x00005028   0x00005028   0x00000188   Code   RO          847    i.setting_snr_dt2   app_setting.o
+    0x000051b0   0x000051b0   0x00000188   Code   RO          848    i.setting_snr_min1  app_setting.o
+    0x00005338   0x00005338   0x00000188   Code   RO          849    i.setting_snr_min2  app_setting.o
+    0x000054c0   0x000054c0   0x00000188   Code   RO          850    i.setting_snr_pt1   app_setting.o
+    0x00005648   0x00005648   0x00000188   Code   RO          851    i.setting_snr_pt2   app_setting.o
+    0x000057d0   0x000057d0   0x00000188   Code   RO          852    i.setting_snr_sv_max1  app_setting.o
+    0x00005958   0x00005958   0x00000188   Code   RO          853    i.setting_snr_sv_max2  app_setting.o
+    0x00005ae0   0x00005ae0   0x000000e0   Code   RO          573    i.sound_loop        sound.o
+    0x00005bc0   0x00005bc0   0x00000018   Code   RO          679    i.task_1000ms       app_ctl.o
+    0x00005bd8   0x00005bd8   0x00000010   Code   RO          680    i.task_100ms        app_ctl.o
+    0x00005be8   0x00005be8   0x00000008   Code   RO          681    i.task_100us_interrupt  app_ctl.o
+    0x00005bf0   0x00005bf0   0x00000008   Code   RO          682    i.task_10ms         app_ctl.o
+    0x00005bf8   0x00005bf8   0x00000008   Code   RO          683    i.task_1ms          app_ctl.o
+    0x00005c00   0x00005c00   0x00000008   Code   RO          684    i.task_1ms_interrupt  app_ctl.o
+    0x00005c08   0x00005c08   0x00000008   Code   RO          685    i.task_idle         app_ctl.o
+    0x00005c10   0x00005c10   0x0000001c   Code   RO          686    i.task_start        app_ctl.o
+    0x00005c2c   0x00005c2c   0x0000001c   Code   RO          358    i.tt_flash_iap_pgm  hal.o
+    0x00005c48   0x00005c48   0x0000002c   Code   RO          360    i.uart_tx           hal.o
+    0x00005c74   0x00005c74   0x00000010   Code   RO          772    i.update_st_data    app_normal.o
+    0x00005c84   0x00005c84   0x0000009c   Code   RO          773    i.update_st_error_t  app_normal.o
+    0x00005d20   0x00005d20   0x00000280   Code   RO          774    i.update_st_relay   app_normal.o
     0x00005fa0   0x00005fa0   0x0000008c   Code   RO         2785    x$fpl$fadd          fz_ps.l(faddsub.o)
     0x0000602c   0x0000602c   0x000000b0   Code   RO         2798    x$fpl$fmul          fz_ps.l(fmul.o)
     0x000060dc   0x000060dc   0x000000d0   Code   RO         2787    x$fpl$fsub          fz_ps.l(faddsub.o)
@@ -2278,7 +2280,7 @@ Memory Map of the image
     0x00007000   0x00007000   0x00000032   Data   RO         1039    .ARM.__AT_0x00007000  app_data.o
 
 
-    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x00007034, Size: 0x00000588, Max: 0x00001000, ABSOLUTE, COMPRESSED[0x00000060])
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x00007034, Size: 0x00000598, Max: 0x00001000, ABSOLUTE, COMPRESSED[0x00000060])
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -2294,19 +2296,20 @@ Memory Map of the image
     0x2000006c   COMPRESSED   0x00000118   Data   RW          855    .data               app_setting.o
     0x20000184   COMPRESSED   0x00000002   Data   RW         1130    .data               queue.o
     0x20000186   COMPRESSED   0x00000002   PAD
-    0x20000188   COMPRESSED   0x0000004a   Data   RW         1180    .data               sensor.o
-    0x200001d2   COMPRESSED   0x00000016   Data   RW         1331    .data               modbus.o
-    0x200001e8   COMPRESSED   0x0000000b   Data   RW         1493    .data               fnd.o
-    0x200001f3   COMPRESSED   0x00000001   PAD
-    0x200001f4   COMPRESSED   0x00000004   Data   RW         2552    .data               a31g21x_hal_usart1n.o
-    0x200001f8        -       0x00000050   Zero   RW          574    .bss                sound.o
-    0x20000248        -       0x00000032   Zero   RW         1040    .bss                app_data.o
-    0x2000027a        -       0x0000000a   Zero   RW         1129    .bss                queue.o
-    0x20000284        -       0x00000010   Zero   RW         1179    .bss                sensor.o
-    0x20000294        -       0x00000094   Zero   RW         1329    .bss                modbus.o
-    0x20000328        -       0x00000060   Zero   RW         2839    .bss                c_p.l(libspace.o)
-    0x20000388        -       0x00000000   Zero   RW         1558    HEAP                startup_a31g21x.o
-    0x20000388        -       0x00000200   Zero   RW         1557    STACK               startup_a31g21x.o
+    0x20000188   COMPRESSED   0x00000054   Data   RW         1180    .data               sensor.o
+    0x200001dc   COMPRESSED   0x00000016   Data   RW         1331    .data               modbus.o
+    0x200001f2   COMPRESSED   0x0000000b   Data   RW         1493    .data               fnd.o
+    0x200001fd   COMPRESSED   0x00000003   PAD
+    0x20000200   COMPRESSED   0x00000004   Data   RW         2552    .data               a31g21x_hal_usart1n.o
+    0x20000204        -       0x00000050   Zero   RW          574    .bss                sound.o
+    0x20000254        -       0x00000032   Zero   RW         1040    .bss                app_data.o
+    0x20000286        -       0x0000000a   Zero   RW         1129    .bss                queue.o
+    0x20000290        -       0x00000010   Zero   RW         1179    .bss                sensor.o
+    0x200002a0        -       0x00000094   Zero   RW         1329    .bss                modbus.o
+    0x20000334        -       0x00000060   Zero   RW         2839    .bss                c_p.l(libspace.o)
+    0x20000394   COMPRESSED   0x00000004   PAD
+    0x20000398        -       0x00000000   Zero   RW         1558    HEAP                startup_a31g21x.o
+    0x20000398        -       0x00000200   Zero   RW         1557    STACK               startup_a31g21x.o
 
 
 ==============================================================================
@@ -2326,8 +2329,8 @@ Image component sizes
        120         18          0          0          0       1071   a31g21x_hal_wdt.o
        422         26          0          2          0       5821   app_ctl.o
        556         78         50          0         50       7470   app_data.o
-      1344        156          0         23          0       4662   app_normal.o
-       920         64          2         42          0       3480   app_sensing.o
+      1316        158          0         23          0       4642   app_normal.o
+       916         62          2         42          0       3468   app_sensing.o
       8020        780          8        280          0      21150   app_setting.o
        188         16          0          0          0       1235   flash.o
        988         88         62         11          0       5013   fnd.o
@@ -2339,16 +2342,16 @@ Image component sizes
        412         54          0          8          0      10249   main.o
       2216        188        512         22        148       9762   modbus.o
        180         34          0          2         10       2480   queue.o
-      1088        140          0         74         16       7287   sensor.o
+      1120        150          0         84         16       7375   sensor.o
        476        118          0         10         80       3343   sound.o
         60         26        192          0        512        664   startup_a31g21x.o
         92         42          0          8          0     137135   system_a31g21x.o
        200         36          0          0          0        941   systemclock.o
 
     ----------------------------------------------------------------------
-     23120       2250       3848        504        816     279948   Object Totals
+     23120       2260       3848        516        816     280004   Object Totals
          0          0         32          0          0          0   (incl. Generated)
-        10          0       2990          4          0          0   (incl. Padding)
+        10          0       2990          6          0          0   (incl. Padding)
 
     ----------------------------------------------------------------------
 
@@ -2383,8 +2386,8 @@ Image component sizes
          0          0          0          0          0          0   usenofp.o
 
     ----------------------------------------------------------------------
-      1692         38         64          0         96       1132   Library Totals
-         2          0          0          0          0          0   (incl. Padding)
+      1692         38         64          0        100       1132   Library Totals
+         2          0          0          0          4          0   (incl. Padding)
 
     ----------------------------------------------------------------------
 
@@ -2394,7 +2397,7 @@ Image component sizes
       1046         22         64          0          0        492   fz_ps.l
 
     ----------------------------------------------------------------------
-      1692         38         64          0         96       1132   Library Totals
+      1692         38         64          0        100       1132   Library Totals
 
     ----------------------------------------------------------------------
 
@@ -2403,14 +2406,14 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     24812       2288       3912        504        912     272952   Grand Totals
-     24812       2288       3912         96        912     272952   ELF Image Totals (compressed)
-     24812       2288       3912         96          0          0   ROM Totals
+     24812       2298       3912        516        916     273008   Grand Totals
+     24812       2298       3912         96        916     273008   ELF Image Totals (compressed)
+     24812       2298       3912         96          0          0   ROM Totals
 
 ==============================================================================
 
     Total RO  Size (Code + RO Data)                28724 (  28.05kB)
-    Total RW  Size (RW Data + ZI Data)              1416 (   1.38kB)
+    Total RW  Size (RW Data + ZI Data)              1432 (   1.40kB)
     Total ROM Size (Code + RO Data + RW Data)      28820 (  28.14kB)
 
 ==============================================================================

@@ -78,14 +78,14 @@ uint8_t get_snr_st(uint8_t *re) // 1s
 		xprintf("%d:%d:%d:%d:%d:%d\n",sensor_cnt,get_charging_low_impedance(sensor_cnt),get_charging_high_impedance(sensor_cnt),(int)(get_discharging_low_impedance(sensor_cnt)),(int)(get_discharging_high_impedance(sensor_cnt)),(int)(t_water_ref));
 
 #endif
-		{
-			int16_t t_diff = (int16_t)(((float)(t_sensor_dis_impedance-SENDS_LOW_OFFSET)/(float)t_ref_max)*100.0f)+SENDS_OFFSET;
 		
-			diff_dis_impedance[sensor_cnt] = 0;
-			t_ref_dis_impedance = 9999;
-		}
+		int16_t t_diff = (int16_t)(((float)(t_sensor_dis_impedance-SENDS_LOW_OFFSET)/(float)t_ref_max)*100.0f)+SENDS_OFFSET;
+	
+		diff_dis_impedance[sensor_cnt] = 0;
+		t_ref_dis_impedance = 9999;
 		
-		if(get_app_data_ch(e_normal_sv,sensor_cnt) <= t_total_impedance && t_total_impedance <= get_app_data_ch(e_short_sv,sensor_cnt))
+		
+		if(get_app_data_ch(e_snr_sv_min,sensor_cnt) <= t_total_impedance && t_total_impedance <= get_app_data_ch(e_short_sv,sensor_cnt))
 		{
 			detect_cnt[sensor_cnt]++;
 			if(get_app_data_ch(e_snr_sv_min,sensor_cnt) <= t_total_impedance && get_app_data_ch(e_snr_sv_max,sensor_cnt) >= t_total_impedance)
@@ -146,6 +146,7 @@ uint8_t get_snr_st(uint8_t *re) // 1s
 		{
 			short_cnt[sensor_cnt] = 0;
 		}
+		
 		if(detect_cnt[sensor_cnt] >= 1)
 		{
 			if(leak_cnt[sensor_cnt] >= get_app_data_ch(e_snr_dt,sensor_cnt)+1)
@@ -175,8 +176,7 @@ uint8_t get_snr_st(uint8_t *re) // 1s
 			short_cnt[sensor_cnt] = DT_MAX;
 			t_re[sensor_cnt] = SNR_ST_SHORT;
 		}
-				
-		
+					
 		if(get_sys_config_bit(SYS_H2O_DRY_USE) == 1)
 		{	
 			if(t_re[sensor_cnt] == SNR_ST_NORMAL)
@@ -193,15 +193,17 @@ uint8_t get_snr_st(uint8_t *re) // 1s
 				t_re[sensor_cnt] = SNR_ST_H2O;			
 			}
 		}
+		
 		if(snr_pof_cnt[sensor_cnt] > 0)
 		{	
 			snr_pof_cnt[sensor_cnt]--;
-			t_re[sensor_cnt] = pwroff_st[sensor_cnt] |	SNR_ST_SNR_OFF ;
+			t_re[sensor_cnt] = pwroff_st[sensor_cnt];
 			detect_cnt[sensor_cnt] = 0;
 			wet_cnt[sensor_cnt]    = 0;
 			leak_cnt[sensor_cnt]   = 0;
 			broken_cnt[sensor_cnt] = 0;
 			short_cnt[sensor_cnt]  = 0;
+			continue; 
 		}
 		else
 		{
@@ -213,7 +215,6 @@ uint8_t get_snr_st(uint8_t *re) // 1s
 					pwroff_st[sensor_cnt] = t_re[sensor_cnt];
 					set_sensor_on(sensor_cnt,0);
 					snr_pof_cnt[sensor_cnt] = get_app_data_ch(e_snr_pwoff_t,sensor_cnt);
-					
 				}
 			}
 		}

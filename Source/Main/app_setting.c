@@ -17,32 +17,32 @@
 
 void * setting_func[SETTING_FUNC_MAX] = 
 {
-setting_normal1			,//1
-setting_normal2			,//2
-setting_snr_min1		,//3
-setting_snr_min2		,//4
-setting_snr_sv_max1		,//5
-setting_snr_sv_max2		,//6
-setting_snr_dt1			,//7
-setting_snr_dt2			,//8
-setting_snr_pt1			,//9
-setting_snr_pt2			,//10
-setting_broken_sv1		,//11
-setting_broken_sv2		,//12
-setting_short_sv1		,//13
-setting_short_sv2		,//14
-setting_h2o_rel			,//15
-setting_h2o_dry 		,//16
-setting_broken_chk		,//17
-setting_short_chk		,//18
-setting_buzzer			,//19
-setting_relay_out_md    ,
-setting_modbus_v		,//20
-setting_modbus_id		,//21
-setting_recovery_md	    ,//22
-//23
-setting_factort_reset	,//24
-setting_exit			 //25
+	setting_normal1			,//1
+	setting_normal2			,//2
+	setting_snr_min1		,//3
+	setting_snr_min2		,//4
+	setting_snr_sv_max1		,//5
+	setting_snr_sv_max2		,//6
+	setting_snr_dt1			,//7
+	setting_snr_dt2			,//8
+	setting_snr_pt1			,//9
+	setting_snr_pt2			,//10
+	setting_broken_sv1		,//11
+	setting_broken_sv2		,//12
+	setting_short_sv1		,//13
+	setting_short_sv2		,//14
+	setting_h2o_rel			,//15
+	setting_h2o_dry 		,//16
+	setting_broken_chk		,//17
+	setting_short_chk		,//18
+	setting_buzzer			,//19
+	setting_relay_out_md    ,
+	setting_modbus_v		,//20
+	setting_modbus_id		,//21
+	setting_recovery_md	    ,//22
+	//23
+	setting_factort_reset	,//24
+	setting_exit			 //25
 };
 
 

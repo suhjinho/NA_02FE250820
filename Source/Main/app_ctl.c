@@ -153,7 +153,7 @@ uint8_t init(void)
 		if(escape_msdelay1())
 		{
 			uint8_t i;
-			fnd_put("v004",4);
+			fnd_put("v005",4);
 			
 			for(i=0;i<SNR_NUM;i++)
 			{

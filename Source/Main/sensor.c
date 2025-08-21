@@ -18,7 +18,9 @@ static uint32_t snr_keep_cnt[SNR_NUM] = {0};
 static uint32_t snr_pwoff_cnt[SNR_NUM] = {0};
 
 static uint8_t sensor_ready = 0;
-
+uint16_t t_ADC = 0;
+uint32_t t_adc_er_1 = 0;
+uint32_t t_adc_er_2 = 0;
 
 uint32_t get_snr_pwoff_t(uint8_t ch)
 {
@@ -226,7 +228,6 @@ void set_sensor_enable(uint8_t snr_ch)
 }
 
 
-
 uint16_t get_charging_low_impedance(uint8_t snr_num)
 {
 	if(snr_num < SNR_NUM)
@@ -261,6 +262,7 @@ float get_discharging_high_impedance(uint8_t snr_num)
 	}
 	return 0;	
 }
+
 //1500 /5 200*5
 void sensing_loop(void)//0.1ms
 {
@@ -271,8 +273,6 @@ void sensing_loop(void)//0.1ms
   #define SENSOR_PWOFF	 1000		// 1800
   #define AVG_CNT_MAX 	2 //1
 
-
-	
 	static uint8_t is_sener_chraging = 0;//0 dont sening 1 charging 2 discharging
 	static uint8_t is_sener_low_impedance = 1;
 
@@ -288,200 +288,120 @@ void sensing_loop(void)//0.1ms
 	static uint16_t discharging_avg_high_impedance[AVG_CNT_MAX];
 	
 	static uint16_t senser_cnt = 0;
-	
 	static uint16_t senser_avg_cnt = 0;
-	static uint16_t t_snr_detail_cnt = 0;
 
 	if(sensor_on)
 	{
-		if(is_sener_low_impedance == 1)
+		if(is_sener_chraging == 0)
 		{
-			#if 0
-			if(is_sener_chraging == 0)
+			senser_cnt++;
+			set_sensor_sw_enable(1);
+			crrent_sensor_onoff(1);
+			
+			if(senser_cnt >= NOSENSING_MAX)
 			{
-				senser_cnt++;
-				set_sensor_sw_enable(1);
-				crrent_sensor_onoff(1);
-				
-				if(senser_cnt >= NOSENSING_MAX)          //1000
-				{
-					senser_cnt = 0;
-					is_sener_chraging = 1;
-					charging_low_impedance = 0;
-				}
+				senser_cnt = 0;
+				is_sener_chraging = 1;
+				charging_low_impedance = 0;
 			}
-			else if(is_sener_chraging == 1)
-			{				
-				charging_low_impedance = charging_low_impedance + sensing();
-				senser_cnt++;
-
-				
-				if(senser_cnt >= CHARGING_MAX)        // CHARGING_MAX 500
-				{
-					senser_cnt = 0;
-					is_sener_chraging = 2;
-				}
-			}
-			else if(is_sener_chraging == 2)//discharging
-			{
-				
-				senser_cnt++;
-				set_sensor_sw_enable(0);	
-				
-//				if(t_sensing > 20)
-//				{
-	//				discharging_high_impedance = senser_cnt;
-	//			}
-				
-				if(senser_cnt == DISCHARGING_SENSING)
-				{
-					discharging_low_impedance = t_sensing;
-				}
-				if(senser_cnt >= DISCHARGING_MAX)       // DISCHARGING_MAX 1000
-				{	
-					is_sener_chraging = 3;
-					senser_cnt = 0;
-#if 0					
-
-					
-#endif
-				}	
-			}
-			else if(is_sener_chraging == 3)
-			{
-				senser_cnt++;
-				if(senser_cnt >= 500)       // DISCHARGING_MAX 1000
-				{	
-					senser_cnt = 0;
-					is_sener_chraging = 4;
-				}
-			}
-			else if(is_sener_chraging == 4)
-			{
-				senser_cnt++;
-				crrent_sensor_onoff(0);
-				if(senser_cnt >= 1000)       // DISCHARGING_MAX 1000
-				{					
-					senser_cnt = 0;
-					is_sener_chraging = 0;
-					is_sener_low_impedance = 0;
-				}
-			}			
-			else
-			{
-				//nothing
-			}
-			#endif
-			is_sener_low_impedance = 0;
 		}
-		else
+		else if(is_sener_chraging == 1)
 		{
-			if(is_sener_chraging == 0)
+			charging_low_impedance = charging_low_impedance + sensing();
+			senser_cnt++;
+			
+			t_sensing = sensing();
+			if(senser_cnt >= CHARGING_MAX)
 			{
-				senser_cnt++;
-				set_sensor_sw_enable(1);
-				crrent_sensor_onoff(1);
-				
-				if(senser_cnt >= NOSENSING_MAX)
-				{
-					senser_cnt = 0;
-					is_sener_chraging = 1;
-					charging_low_impedance = 0;
-				}
+				senser_cnt = 0;		
+				is_sener_chraging = 2;
 			}
-			else if(is_sener_chraging == 1)
-			{
-				charging_low_impedance = charging_low_impedance + sensing();
-				senser_cnt++;
-//				set_sensor_sw_enable(1);
-//				crrent_sensor_onoff(1);
-				t_sensing = sensing();
-				if(senser_cnt >= CHARGING_MAX)
-				{
-					senser_cnt = 0;
-					
-					is_sener_chraging = 2;
-					
-//					set_sensor_sw_enable(0);
-//					crrent_sensor_onoff(0);
-				}
-			}
-			else if(is_sener_chraging == 2)//discharging
-			{
-//				uint16_t t_sensing;
-				senser_cnt++;
-				set_sensor_sw_enable(0);
-//				crrent_sensor_onoff(0);
-				if(senser_cnt >= NOSENSING_MAX)
-				{
-					senser_cnt = 0;
-					is_sener_chraging = 3;
-					charging_high_impedance = 0;
-				}
-			}
-			else if(is_sener_chraging == 3)//discharging
-			{
-				charging_high_impedance = charging_high_impedance + sensing();
-				senser_cnt++;
-				
-				if(senser_cnt >= CHARGING_MAX)
-				{
-					senser_cnt = 0;
-					is_sener_chraging = 4;
-				}
-			}			
-			else if(is_sener_chraging == 4)
-			{
-				senser_cnt++;
-				crrent_sensor_onoff(0);
-				if(senser_cnt >= SENSOR_PWOFF)
-				{					
-//				set_sensor_sw_enable(0);
-					
-					senser_cnt = 0;
-					is_sener_chraging = 0;
-					is_sener_low_impedance = 1;
+		}
+		else if(is_sener_chraging == 2)//discharging
+		{
+			senser_cnt++;
+			set_sensor_sw_enable(0);
 
-					charging_avg_high_impedance[senser_avg_cnt] = charging_high_impedance/CHARGING_MAX;
-					discharging_avg_high_impedance[senser_avg_cnt] = discharging_high_impedance;
-
-					charging_avg_low_impedance[senser_avg_cnt] = charging_low_impedance/CHARGING_MAX;
-					discharging_avg_low_impedance[senser_avg_cnt] = discharging_low_impedance;
+			if(senser_cnt >= NOSENSING_MAX)
+			{
+				senser_cnt = 0;
+				is_sener_chraging = 3;
+				charging_high_impedance = 0;
+			}
+		}
+		else if(is_sener_chraging == 3)//discharging
+		{
+			charging_high_impedance = charging_high_impedance + sensing();
+			senser_cnt++;
+			
+			if(senser_cnt >= CHARGING_MAX)
+			{
+				senser_cnt = 0;
+				is_sener_chraging = 4;
+			}
+		}			
+		else if(is_sener_chraging == 4)
+		{
+			senser_cnt++;
+			crrent_sensor_onoff(0);
 					
-					senser_avg_cnt++;
-					if(senser_avg_cnt == AVG_CNT_MAX )
+			t_ADC = sensing();
+
+			if(t_ADC > 82) //0.3v			
+			{
+				t_adc_er_1 = senser_cnt;				
+			}
+			if(t_ADC > 30) //0.2v			
+			{
+				t_adc_er_2 = senser_cnt;				
+			}
+			if(senser_cnt >= SENSOR_PWOFF)
+			{									
+				senser_cnt = 0;
+				is_sener_chraging = 0;
+				is_sener_low_impedance = 1;
+
+				charging_avg_high_impedance[senser_avg_cnt] = charging_high_impedance/CHARGING_MAX;
+				discharging_avg_high_impedance[senser_avg_cnt] = discharging_high_impedance;
+
+				charging_avg_low_impedance[senser_avg_cnt] = charging_low_impedance/CHARGING_MAX;
+				discharging_avg_low_impedance[senser_avg_cnt] = discharging_low_impedance;
+				
+				senser_avg_cnt++;
+				if(senser_avg_cnt == AVG_CNT_MAX )
+				{
+					senser_avg_cnt = 0;						
+					
+//				sensor_impedance[0][sensor_index_cnt] = get_avg(charging_avg_low_impedance,AVG_CNT_MAX);
+					sensor_impedance[1][sensor_index_cnt] = get_avg(charging_avg_low_impedance,AVG_CNT_MAX);
+					water_ref = sensor_impedance[1][sensor_index_cnt];
+					sensor_dis_impedance[0][sensor_index_cnt] = get_avg_f(discharging_avg_low_impedance,AVG_CNT_MAX);
+					sensor_dis_impedance[1][sensor_index_cnt] = get_avg_f(charging_avg_low_impedance,AVG_CNT_MAX);
+					
+					//next sensor
+					sensor_index_cnt++;
+					if(sensor_index_cnt == SNR_NUM)  // SNR_NUM 2
 					{
-						senser_avg_cnt = 0;						
-						
-//						sensor_impedance[0][sensor_index_cnt] = get_avg(charging_avg_low_impedance,AVG_CNT_MAX);
-						sensor_impedance[1][sensor_index_cnt] = get_avg(charging_avg_low_impedance,AVG_CNT_MAX);
-						water_ref = sensor_impedance[1][sensor_index_cnt];
-						sensor_dis_impedance[0][sensor_index_cnt] = get_avg_f(discharging_avg_low_impedance,AVG_CNT_MAX);
-						sensor_dis_impedance[1][sensor_index_cnt] = get_avg_f(charging_avg_low_impedance,AVG_CNT_MAX);
-						
-						//next sensor
-						sensor_index_cnt++;
-						if(sensor_index_cnt == SNR_NUM)  // SNR_NUM 2
-						{
-							sensor_ready = 1;
-						}
-						sensor_index_cnt = sensor_index_cnt % SNR_NUM;
-						set_sensor_enable(sensor_index_cnt);
+						sensor_ready = 1;
 					}
+					sensor_index_cnt = sensor_index_cnt % SNR_NUM;
+					set_sensor_enable(sensor_index_cnt);
 				}
 			}
-		}		
+		}
 	}
 	else
 	{
 		is_sener_low_impedance = 1;
 		is_sener_chraging = 0;
-//		set_sensor_sw_enable(0);
-//		crrent_sensor_onoff(0);
+
 		senser_cnt = 0;
 		senser_avg_cnt = 0;
 	}
 }
+
+
+
 
 uint32_t sensing()
 {

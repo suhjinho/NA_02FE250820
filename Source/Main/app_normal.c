@@ -130,19 +130,19 @@ void update_st_relay(void)
 			break;
 			case SNR_ST_H2O:
 			{
+				if(get_sys_config_bit(SYS_BUZZER_ON) == 1 )
+				{
+					ar_out = ar_out | (0x01<<i);
+				}
+
 				if(get_sys_config_bit(SYS_H2O_REL_USE) == 1)
 				{
-					if(get_sys_config_bit(SYS_BUZZER_ON) == 1 )
-					{
-						ar_out 		= ar_out | (0x01<<i);
-					}
-					broken_relay_out 		= broken_relay_out | (0x01<<i);
+					broken_relay_out = broken_relay_out | (0x01<<i);
 				}
 				else
 				{
 					leak_relay_out 		= leak_relay_out & (~(0x01<<i));
 					broken_relay_out 	= broken_relay_out & (~(0x01<<i));
-					ar_out 			= ar_out & (~(0x01<<i));
 				}
 			}
 			break;
@@ -151,22 +151,17 @@ void update_st_relay(void)
 			{			
 				broken_relay_out 		= broken_relay_out | (0x01<<i);
                 leak_relay_out 		= leak_relay_out & (~(0x01<<i));
-				if(get_sys_config_bit(SYS_BUZZER_ON) == 1)
-				{
-					ar_out 		= ar_out | (0x01<<i);
-				}
+
 			}
+			ar_out = ar_out & (~(0x01<<i));
 			break;
 			case SNR_ST_BROKEN:
 			if(get_sys_config_bit(SYS_BROKEN_USE) == 1)
 			{
 				broken_relay_out 		= broken_relay_out | (0x01<<i);
                 leak_relay_out 		= leak_relay_out & (~(0x01<<i));
-				if(get_sys_config_bit(SYS_BUZZER_ON) == 1)
-				{
-					ar_out 		= ar_out | (0x01<<i);
-				}
 			}
+			ar_out = ar_out & (~(0x01<<i));
 			break;
 		}
 	}

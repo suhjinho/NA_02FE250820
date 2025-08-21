@@ -211,7 +211,7 @@ I (.\Source\Drivers\Include\A31G21x_hal_wdt.h)(0x6889B323)
 I (.\Source\Drivers\Include\A31G21x_hal_wt.h)(0x6889B323)
 I (Source\Main\sound.h)(0x6889B323)
 I (Source\Main\led.h)(0x6889B323)
-F (.\Source\Main\app_sensing.c)(0x68A5207A)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\app_sensing.o --omf_browse .\objects\app_sensing.crf --depend .\objects\app_sensing.d)
+F (.\Source\Main\app_sensing.c)(0x68A68AE0)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\app_sensing.o --omf_browse .\objects\app_sensing.crf --depend .\objects\app_sensing.d)
 I (Source\Main\app_sensing.h)(0x6889B323)
 I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
 I (Source\Main\app_data.h)(0x6889B323)
@@ -242,7 +242,7 @@ I (Source\Main\sensor.h)(0x68A42F6D)
 I (Source\Main\model.h)(0x6889B323)
 I (Source\Main\xprintf.h)(0x68A33D4D)
 I (Source\Main\app_normal.h)(0x6889B323)
-F (.\Source\Main\app_ctl.c)(0x68A33D4D)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\app_ctl.o --omf_browse .\objects\app_ctl.crf --depend .\objects\app_ctl.d)
+F (.\Source\Main\app_ctl.c)(0x68A5A51B)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\app_ctl.o --omf_browse .\objects\app_ctl.crf --depend .\objects\app_ctl.d)
 I (Source\Main\hal.h)(0x68A3FC7B)
 I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
 I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
@@ -279,7 +279,7 @@ I (Source\Main\app_data.h)(0x6889B323)
 I (Source\Main\sensor.h)(0x68A42F6D)
 I (Source\Main\model.h)(0x6889B323)
 I (Source\Main\modbus.h)(0x6889B323)
-F (.\Source\Main\app_normal.c)(0x68A33D4D)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\app_normal.o --omf_browse .\objects\app_normal.crf --depend .\objects\app_normal.d)
+F (.\Source\Main\app_normal.c)(0x68A592ED)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\app_normal.o --omf_browse .\objects\app_normal.crf --depend .\objects\app_normal.d)
 I (Source\Main\hal.h)(0x68A3FC7B)
 I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
 I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
@@ -316,7 +316,7 @@ I (Source\Main\sensor.h)(0x68A42F6D)
 I (Source\Main\model.h)(0x6889B323)
 I (Source\Main\led.h)(0x6889B323)
 I (Source\Main\io.h)(0x6889B323)
-F (.\Source\Main\app_setting.c)(0x68A49276)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\app_setting.o --omf_browse .\objects\app_setting.crf --depend .\objects\app_setting.d)
+F (.\Source\Main\app_setting.c)(0x68A679EB)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\app_setting.o --omf_browse .\objects\app_setting.crf --depend .\objects\app_setting.d)
 I (Source\Main\hal.h)(0x68A3FC7B)
 I (.\Source\Core\Device\ABOV\A31G21x\Include\A31G21x.h)(0x6889B322)
 I (.\Source\Core\CMSIS\Include\core_cm0plus.h)(0x6889B322)
@@ -387,7 +387,7 @@ I (Source\Main\model.h)(0x6889B323)
 F (.\Source\Main\queue.c)(0x6889B323)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
 I (Source\Main\queue.h)(0x6889B323)
 I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
-F (.\Source\Main\sensor.c)(0x68A49362)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\sensor.o --omf_browse .\objects\sensor.crf --depend .\objects\sensor.d)
+F (.\Source\Main\sensor.c)(0x68A679EB)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\Source\Core\CMSIS\Include -I .\Source\Core\Device\ABOV\A31G21x\Include -I .\Source\Drivers\Include -I .\ --gnu-I.\RTE\_Target_1-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARMCM0plus\Include-IC:\Users\suhji\AppData\Local\Arm\Packs\ARM\Cortex_DFP\1.1.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="542" -DARMCM0P -D_RTE_-o .\objects\sensor.o --omf_browse .\objects\sensor.crf --depend .\objects\sensor.d)
 I (Source\Main\sensor.h)(0x68A42F6D)
 I (C:\Users\suhji\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
 I (Source\Main\model.h)(0x6889B323)
